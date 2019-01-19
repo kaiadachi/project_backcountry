@@ -10,6 +10,19 @@ def parse(driver, item, df, folder_name):
     except:
         item['price'] = ''
 
+    driver.find_element_by_xpath('//span[@class = "ui-accordion-header-icon ui-icon product-details-accordion__header--inactive"]').click()
+    description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
+    for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
+        description = description + '\n - ' + i.text
+    item['description'] = description
+
+    driver.find_element_by_xpath('//span[@class = "ui-accordion-header-icon ui-icon product-details-accordion__header--inactive"]').click()
+    name_selector = driver.find_elements_by_xpath('//div[@class = "td ui-product-details__techspec-name"]')
+    value_selector = driver.find_elements_by_xpath('//div[@class = "td ui-product-details__techspec-value"]')
+    for name, value in zip(name_selector,value_selector):
+        #print("%s:%s" %(name.text, value.text))
+        item[name.text] = value.text
+
     color_selector = driver.find_elements_by_xpath('//*[@id="color-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
     colors = getAttribute(color_selector, 'data-img-title')
 

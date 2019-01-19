@@ -19,7 +19,9 @@ def setStructure():
         'price': '',
         'color': '',
         'size': '',
-        'stock': ''
+        'stock': '',
+        'description':'',
+        'Material':''
     }
 
     return item
@@ -32,7 +34,9 @@ def setPandas():
         'price',
         'color',
         'size',
-        'stock'
+        'stock',
+        'description',
+        'Material'
     ]
 
     return pd.DataFrame(index=[], columns=col)
