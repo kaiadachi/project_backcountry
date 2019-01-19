@@ -7,19 +7,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from settings import *
-
-def getAttribute(selenium_array, type):
-    return [i.get_attribute(type) for i in selenium_array]
-
-def getLastPage(driver):
-    last_page = driver.find_elements_by_xpath('//li[@class = "page-link page-number"]/a')[-1].text
-
-    return int(last_page)
-
-def goNext(driver, init_url):
-    driver.get('{0}?page={1}'.format(init_url, i+1))
-
-    return driver
+from utility import *
+from parseLogic import *
 
 def setSelenium(target_url):
     # options = Options()
@@ -45,7 +34,8 @@ def getHref(driver, last_page, limit):
 
 def parseElement(driver):
     item = setStructure()
-    item['name'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
+    parse(driver, item)
+
 
 if __name__ == '__main__':
     init = setConst()
