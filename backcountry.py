@@ -32,19 +32,22 @@ def getHref(driver, last_page, limit):
 
     return driver, urls
 
-def parseElement(driver):
+def parseElement(driver, df):
     item = setStructure()
-    parse(driver, item)
+    df = parse(driver, item, df)
 
+    return df
 
 if __name__ == '__main__':
     init = setConst()
+    df = setPandas()
     driver = setSelenium(init['url'])
     last_page = getLastPage(driver)
     driver, urls = getHref(driver, last_page, init['limit'])
     for count, url in enumerate(urls):
         print("Now: {0}/{1}".format(count+1, init['limit']))
         driver.get(url)
-        parseElement(driver)
+        df = parseElement(driver, df)
 
-    driver.close()
+    print(df)
+    # driver.close()
