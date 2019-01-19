@@ -17,28 +17,31 @@ def getAttribute(selenium_array, type):
 def parseElement(driver):
     item = setStructure()
 
-    size_selector = driver.find_elements_by_xpath('//*[@id="size-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
-    sizes = getAttribute(size_selector, 'data-attribute-selector-key')
 
-    for size, btn in zip(sizes, size_selector):
-        driver.find_element_by_xpath('//*[@id="product-size-select"]').click()
+    color_selector = driver.find_elements_by_xpath('//*[@id="color-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
+    colors = getAttribute(color_selector, 'data-img-title')
+
+
+    for color, btn in zip(colors, color_selector):
+        driver.find_element_by_xpath('//*[@id="product-color-select"]').click()
         btn.click()
 
-        color_selector = driver.find_elements_by_xpath('//*[@id="color-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
-        stocks = getAttribute(color_selector, 'class')
-        colors = getAttribute(color_selector, 'data-img-title')
-        # size
-        item['size'] = size
-        print(item['size'])
+        size_selector = driver.find_elements_by_xpath('//*[@id="size-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
+        stocks = getAttribute(size_selector, 'class')
+        sizes = getAttribute(size_selector, 'data-attribute-selector-key')
 
-        for color, stock in zip(colors, stocks):
+        item['color'] = color
+
+        for size, stock in zip(sizes, stocks):
             if 'is-inactive' in stock:
                 is_stock = 0
             else:
                 is_stock = 1
 
             item['stock'] = is_stock
-            item['color'] = color
+            item['size'] = size
+
+            print(item['color'], item['stock'], item['size'])
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()

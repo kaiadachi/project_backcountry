@@ -32,9 +32,9 @@ def getHref(driver, last_page, limit):
 
     return driver, urls
 
-def parseElement(driver, df):
+def parseElement(driver, df, folder_name):
     item = setStructure()
-    df = parse(driver, item, df)
+    df = parse(driver, item, df, folder_name)
 
     return df
 
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     for count, url in enumerate(urls):
         print("Now: {0}/{1}".format(count+1, init['limit']))
         driver.get(url)
-        df = parseElement(driver, df)
+        df = parseElement(driver, df, init['img_folder'])
 
     print(df)
-    # driver.close()
+    driver.close()

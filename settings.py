@@ -5,7 +5,8 @@ def setConst():
         'url': 'https://www.backcountry.com/womens-clothing-best-sellers',
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
-        'limit': 3
+        'limit': 3,
+        'img_folder': 'backcountry_img'
     }
 
     return init
@@ -14,6 +15,7 @@ def setStructure():
     item = {
         'name': '',
         'product':'',
+        'img_name': '',
         'price': '',
         'color': '',
         'size': '',
@@ -26,6 +28,7 @@ def setPandas():
     col = [
         'name',
         'product',
+        'img_name',
         'price',
         'color',
         'size',

@@ -1,3 +1,18 @@
+import requests
+
+def saveImg(img_url, folder_name):
+    if("https:" not in img_url):
+        img_url = "https:" + img_url
+
+    re = requests.get(img_url)
+
+    img_name = img_url.split('/')[-1]
+    with open("{0}/{1}".format(folder_name, img_name), 'wb') as f:
+        f.write(re.content)
+
+    return img_name
+
+
 def getAttribute(selenium_array, type):
     return [i.get_attribute(type) for i in selenium_array]
 
