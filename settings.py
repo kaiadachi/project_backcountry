@@ -11,7 +11,7 @@ def setConst():
 def setStructure():
     item = {
         'name': '',
-        'number':'',
+        'product_number':'',
         'price':'',
         'color':[],
         'size':[],
