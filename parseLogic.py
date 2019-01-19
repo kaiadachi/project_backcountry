@@ -1,3 +1,4 @@
+import pandas as pd
 from utility import *
 
 def parse(driver, item, df):
@@ -30,7 +31,7 @@ def parse(driver, item, df):
             item['stock'] = is_stock
             item['color'] = color
             #print(item['name'], item['product'], item['price'], item['size'], item['color'], item['stock'])
-            series = pd.Series(item, index=df.columns)
+            series = pd.Series(item)
             df = df.append(series, ignore_index = True)
 
     return df
