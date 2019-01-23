@@ -6,7 +6,8 @@ def setConst():
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
         'limit': 3,
-        'img_folder': 'backcountry_img'
+        'img_folder': 'backcountry_img',
+        'csv_name': 'backcountry.csv'
     }
 
     return init

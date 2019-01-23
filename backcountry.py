@@ -4,7 +4,6 @@ import traceback
 import csv
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from settings import *
 from utility import *
@@ -48,6 +47,6 @@ if __name__ == '__main__':
         print("Now: {0}/{1}".format(count+1, init['limit']))
         driver.get(url)
         df = parseElement(driver, df, init['img_folder'])
-
-    print(df)
+    csv_name = init['csv_name']
+    createCsv(df, csv_name)
     driver.close()

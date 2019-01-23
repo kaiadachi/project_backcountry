@@ -1,4 +1,5 @@
 import requests
+import pandas as pd
 
 def saveImg(img_url, folder_name):
     if("https:" not in img_url):
@@ -25,3 +26,12 @@ def goNext(driver, init_url):
     driver.get('{0}?page={1}'.format(init_url, i+1))
 
     return driver
+
+def createCsv(data, name):
+    try:
+            data.to_csv(name)
+    except:
+        try:
+            data.to_csv(name, encoding="Shift_jis")
+        except:
+            data.to_csv(name, encoding="utf-8")
