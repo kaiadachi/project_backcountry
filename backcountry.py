@@ -5,9 +5,9 @@ import csv
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from settings import *
-from utility import *
-from parseLogic import *
+from src.settings import *
+from src.utility import *
+from src.parseLogic import *
 
 def setSelenium(target_url):
     # options = Options()
@@ -31,9 +31,9 @@ def getHref(driver, last_page, limit):
 
     return driver, urls
 
-def parseElement(driver, df, folder_name):
+def parseElement(driver, df, folder_img):
     item = setStructure()
-    df = parse(driver, item, df, folder_name)
+    df = parse(driver, item, df, folder_img)
 
     return df
 
@@ -43,10 +43,11 @@ if __name__ == '__main__':
     driver = setSelenium(init['url'])
     last_page = getLastPage(driver)
     driver, urls = getHref(driver, last_page, init['limit'])
+
     for count, url in enumerate(urls):
         print("Now: {0}/{1}".format(count+1, init['limit']))
         driver.get(url)
-        df = parseElement(driver, df, init['img_folder'])
-    csv_name = init['csv_name']
-    createCsv(df, csv_name)
+        df = parseElement(driver, df, init['folder'] + '_img')
+
+    createCsv(df, init['csv_name'], init['folder'] + '_csv')
     driver.close()

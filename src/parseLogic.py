@@ -1,8 +1,8 @@
 import pandas as pd
 import time
-from utility import *
+from src.utility import *
 
-def parse(driver, item, df, folder_name):
+def parse(driver, item, df, folder_img):
     item['name'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
     item['product'] = driver.find_element_by_xpath('//li[@class = "product-details-accordion__item-number product-details-accordion__bulletpoint"]').text
     try:
@@ -31,7 +31,7 @@ def parse(driver, item, df, folder_name):
         time.sleep(1)
 
         img_url = driver.find_element_by_xpath('//li[@class="ui-flexslider__item js-flexslider-item ui-flexslider-active-slide"]//img').get_attribute('src')
-        item['img_name'] = saveImg(img_url, folder_name)
+        item['img_name'] = saveImg(img_url, folder_img)
 
         size_selector = driver.find_elements_by_xpath('//*[@id="size-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
         stocks = getAttribute(size_selector, 'class')

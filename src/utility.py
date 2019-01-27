@@ -27,11 +27,11 @@ def goNext(driver, init_url):
 
     return driver
 
-def createCsv(data, name):
+def createCsv(data, name, folder_csv):
     try:
-            data.to_csv(name)
+            data.to_csv('{0}/{1}'.format(folder_csv, name))
     except:
         try:
-            data.to_csv(name, encoding="Shift_jis")
+            data.to_csv('{0}/{1}'.format(folder_csv, name), encoding="Shift_jis")
         except:
-            data.to_csv(name, encoding="utf-8")
+            data.to_csv('{0}/{1}'.format(folder_csv, name), encoding="utf-8")
