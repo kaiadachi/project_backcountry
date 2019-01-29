@@ -4,7 +4,7 @@ from src.utility import *
 
 def parse(driver, item, df, folder_img):
     item['name'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
-    item['product'] = driver.find_element_by_xpath('//li[@class = "product-details-accordion__item-number product-details-accordion__bulletpoint"]').text
+    item['product'] = driver.find_element_by_xpath('//meta[@itemprop = "productID"]').get_attribute('content')
     try:
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
     except:
