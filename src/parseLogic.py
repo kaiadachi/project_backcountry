@@ -1,6 +1,7 @@
 import pandas as pd
 import time
 from src.utility import *
+from src.upc import *
 
 def parse(driver, item, df, folder_img):
     item['name'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
@@ -25,6 +26,7 @@ def parse(driver, item, df, folder_img):
     color_selector = driver.find_elements_by_xpath('//*[@id="color-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
     colors = getAttribute(color_selector, 'data-img-title')
 
+    item['upc'] = searchUpc(item['product'])
     for color, btn in zip(colors, color_selector):
         driver.find_element_by_xpath('//*[@id="product-color-select"]').click()
         btn.click()
@@ -50,5 +52,6 @@ def parse(driver, item, df, folder_img):
 
             series = pd.Series(item)
             df = df.append(series, ignore_index = True)
+
 
     return df

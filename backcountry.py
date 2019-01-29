@@ -41,6 +41,7 @@ if __name__ == '__main__':
     init = setConst()
     df = setPandas()
     driver = setSelenium(init['url'])
+    driver.implicitly_wait(20)
     last_page = getLastPage(driver)
     driver, urls = getHref(driver, last_page, init['limit'])
 

@@ -15,7 +15,8 @@ def setConst():
 def setStructure():
     item = {
         'name': '',
-        'product':'',
+        'product': '',
+        'upc': '',
         'img_name': '',
         'price': '',
         'color': '',
@@ -31,6 +32,7 @@ def setPandas():
     col = [
         'name',
         'product',
+        'upc',
         'img_name',
         'price',
         'color',
