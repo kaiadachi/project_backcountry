@@ -5,7 +5,7 @@ def setConst():
         'url': 'https://www.backcountry.com/womens-clothing-best-sellers',
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
-        'limit': 1,
+        'limit': 2,
         'folder': 'backcountry',
         'csv_name': 'backcountry.csv'
     }
@@ -23,7 +23,8 @@ def setStructure():
         'size': '',
         'stock': '',
         'description':'',
-        'Material':''
+        'Material':'',
+        'parent_child': ''
     }
 
     return item
@@ -39,7 +40,8 @@ def setPandas():
         'size',
         'stock',
         'description',
-        'Material'
+        'Material',
+        'parent_child'
     ]
 
     return pd.DataFrame(index=[], columns=col)

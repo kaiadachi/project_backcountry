@@ -27,6 +27,12 @@ def parse(driver, item, df, folder_img):
     colors = getAttribute(color_selector, 'data-img-title')
 
     item['upc'] = searchUpc(item['product'])
+    item['parent_child'] = 'Parent'
+
+    series = pd.Series(item)
+    df = df.append(series, ignore_index = True)
+
+    item['parent_child'] = 'Child'
     for color, btn in zip(colors, color_selector):
         driver.find_element_by_xpath('//*[@id="product-color-select"]').click()
         btn.click()
