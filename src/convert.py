@@ -6,15 +6,16 @@ def convertAmazon():
     init = setConst()
 
     main_df = pd.read_csv('{0}/{1}'.format(init['folder'] + '_csv', init['csv_name']))
+    print(main_df.info)
+    main_df = main_df.fillna(' ')
 
     header_df = pd.read_csv('temple.csv', encoding='Shift_jis', header=2)
     skip_df = pd.read_csv('temple.csv', encoding='Shift_jis', names=header_df.columns)
 
-
     header_df['feed_product_type'] = main_df['feed_product_type']
     header_df['item_sku'] = main_df['product']
     header_df['brand_name'] = main_df['brand']
-    header_df['item_name'] = main_df['name'] + main_df['color'] + main_df['size']
+    header_df['item_name'] = main_df['name'] + ' ' + main_df['color'] + ' ' + main_df['size']
     header_df['external_product_id'] = main_df['upc']
     header_df['external_product_id_type'] = main_df['product_id_type']
     header_df['outer_material_type'] = main_df['Material']

@@ -1,0 +1,429 @@
+,feed_product_type,item_sku,brand_name,item_name,external_product_id,external_product_id_type,outer_material_type,recommended_browse_nodes,size_name,color_name,color_map,department_name,size_map,quantity,standard_price,main_image_url,material_composition1,material_composition2,material_composition3,material_composition4,material_composition5,material_composition6,material_composition7,material_composition8,material_composition9,material_composition10,other_image_url1,other_image_url2,other_image_url3,other_image_url4,other_image_url5,other_image_url6,other_image_url7,other_image_url8,parent_child,parent_sku,relationship_type,variation_theme,update_delete,part_number,product_description,heel_type,closure_type,model_year,inner_material_type1,inner_material_type2,inner_material_type3,inner_material_type4,inner_material_type5,bullet_point1,bullet_point2,bullet_point3,bullet_point4,bullet_point5,generic_keywords,lifestyle1,lifestyle2,style_keywords,seasons,platinum_keywords1,platinum_keywords2,platinum_keywords3,platinum_keywords4,platinum_keywords5,specific_uses_keywords,material_type,fulfillment_latency,condition_type,condition_note,standard_price_points,sale_price_points,product_site_launch_date,merchant_release_date,list_price,optional_payment_type_exclusion,delivery_schedule_group_id,sale_price,sale_from_date,sale_end_date,restock_date,max_order_quantity,offering_can_be_gift_messaged,offering_can_be_giftwrapped,is_discontinued_by_manufacturer,merchant_shipping_group_name,distribution_designation,item_package_quantity,offering_end_date,offering_start_date,product_tax_code
+0,TemplateType=fptcustomcustom,Version=2019.0127,TemplateSignature=T1VURVJXRUFSLEJMQVpFUg==,上3行は Amazon.com 記入用です。上3行は変更または削除しないでください。.,,,,,,,,,,,,,,,,,,,,,,,画像,,,,,,,,バリエーション,,,,商品基本情報,,,,,,,,,,,商品検索情報,,,,,,,,,,,,,,,,推奨ブラウズノード別の情報,出品情報,,,,,,,,,,,,,,,,,,,,,,,
+1,feed_product_type,出品者SKU,ブランド名,商品名,商品コード(JANコード等),商品コードのタイプ,表地素材,推奨ブラウズノード,サイズ,カラー,カラーマップ,対象年齢・性別,サイズマップ,在庫数,商品の販売価格,商品メイン画像URL,素材構成,素材構成,素材構成,素材構成,素材構成,素材構成,素材構成,素材構成,素材構成,素材構成,商品のサブ画像URL,商品のサブ画像URL,商品のサブ画像URL,商品のサブ画像URL,商品のサブ画像URL,商品のサブ画像URL,商品のサブ画像URL,商品のサブ画像URL,親子指定,親商品のSKU(商品管理番号),親子関係のタイプ,バリエーションテーマ,アップデート・削除,メーカー型番,商品説明文,ヒールのタイプ,留め具のタイプ,モデル年(発売年・発表年),inner_material_type1,inner_material_type2,inner_material_type3,inner_material_type4,inner_material_type5,商品説明の箇条書き,商品説明の箇条書き,商品説明の箇条書き,商品説明の箇条書き,商品説明の箇条書き,検索キーワード,ライフスタイル,ライフスタイル,スタイルキーワード,シーズン,プラチナキーワード,プラチナキーワード,プラチナキーワード,プラチナキーワード,プラチナキーワード,コート・ワンピース・チュニック着丈,material_type,出荷作業日数,商品のコンディション,商品のコンディション説明,ポイント,セール時ポイント,商品の公開日,予約商品の販売開始日,メーカー希望価格,使用しない支払い方法,配送日時指定SKUリスト,セール価格,セール開始日,セール終了日,商品の入荷予定日,最大注文個数,ギフトメッセージ,ギフト包装,メーカー製造中止,配送パターン,販売形態(並行輸入品),item_package_quantity,廃盤日,販売開始日,商品タックスコード
+2,feed_product_type,item_sku,brand_name,item_name,external_product_id,external_product_id_type,outer_material_type,recommended_browse_nodes,size_name,color_name,color_map,department_name,size_map,quantity,standard_price,main_image_url,material_composition1,material_composition2,material_composition3,material_composition4,material_composition5,material_composition6,material_composition7,material_composition8,material_composition9,material_composition10,other_image_url1,other_image_url2,other_image_url3,other_image_url4,other_image_url5,other_image_url6,other_image_url7,other_image_url8,parent_child,parent_sku,relationship_type,variation_theme,update_delete,part_number,product_description,heel_type,closure_type,model_year,inner_material_type1,inner_material_type2,inner_material_type3,inner_material_type4,inner_material_type5,bullet_point1,bullet_point2,bullet_point3,bullet_point4,bullet_point5,generic_keywords,lifestyle1,lifestyle2,style_keywords,seasons,platinum_keywords1,platinum_keywords2,platinum_keywords3,platinum_keywords4,platinum_keywords5,specific_uses_keywords,material_type,fulfillment_latency,condition_type,condition_note,standard_price_points,sale_price_points,product_site_launch_date,merchant_release_date,list_price,optional_payment_type_exclusion,delivery_schedule_group_id,sale_price,sale_from_date,sale_end_date,restock_date,max_order_quantity,offering_can_be_gift_messaged,offering_can_be_giftwrapped,is_discontinued_by_manufacturer,merchant_shipping_group_name,distribution_designation,item_package_quantity,offering_end_date,offering_start_date,product_tax_code
+0,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's    ,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051, , , ,レディーズ, , ,,,,,,,,,,,,,,,,,,,,,Parent,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Urban Navy XS,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XS,Urban Navy,Urban Navy,レディーズ,XS,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Urban Navy S,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,S,Urban Navy,Urban Navy,レディーズ,S,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Urban Navy L,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,L,Urban Navy,Urban Navy,レディーズ,L,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Urban Navy XL,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XL,Urban Navy,Urban Navy,レディーズ,XL,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Medium Grey Heather XS,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XS,Tnf Medium Grey Heather,Tnf Medium Grey Heather,レディーズ,XS,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Medium Grey Heather S,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,S,Tnf Medium Grey Heather,Tnf Medium Grey Heather,レディーズ,S,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Medium Grey Heather L,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,L,Tnf Medium Grey Heather,Tnf Medium Grey Heather,レディーズ,L,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Medium Grey Heather XL,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XL,Tnf Medium Grey Heather,Tnf Medium Grey Heather,レディーズ,XL,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Black XS,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XS,Tnf Black,Tnf Black,レディーズ,XS,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Black S,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,S,Tnf Black,Tnf Black,レディーズ,S,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Black L,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,L,Tnf Black,Tnf Black,レディーズ,L,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Tnf Black XL,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XL,Tnf Black,Tnf Black,レディーズ,XL,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's New Taupe Green XS,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XS,New Taupe Green,New Taupe Green,レディーズ,XS,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's New Taupe Green S,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,S,New Taupe Green,New Taupe Green,レディーズ,S,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's New Taupe Green L,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,L,New Taupe Green,New Taupe Green,レディーズ,L,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's New Taupe Green XL,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XL,New Taupe Green,New Taupe Green,レディーズ,XL,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Galaxy Purple XS,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XS,Galaxy Purple,Galaxy Purple,レディーズ,XS,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Galaxy Purple S,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,S,Galaxy Purple,Galaxy Purple,レディーズ,S,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Galaxy Purple L,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,L,Galaxy Purple,Galaxy Purple,レディーズ,L,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Galaxy Purple XL,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XL,Galaxy Purple,Galaxy Purple,レディーズ,XL,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Vintage White XS,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XS,Vintage White,Vintage White,レディーズ,XS,0.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Vintage White S,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,S,Vintage White,Vintage White,レディーズ,S,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Vintage White L,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,L,Vintage White,Vintage White,レディーズ,L,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,outerwear,TNF03E0-URBNV-XS,The North Face,The North Face Arctic Down Parka II - Women's Vintage White XL,190850777181,UPC,"[membrane/laminate] DryVent 2L, [face fabric] (solid) 59% cotton, 41% nylon twill, (heather) 100% polyester herringbone, [lining] 100% recycled polyester",2131480051,XL,Vintage White,Vintage White,レディーズ,XL,1.0,,,,,,,,,,,,,,,,,,,,,Child,,,,Update,,"When just walking a few blocks feels like an arctic expedition, slide on The North Face Women's Arctic Down Parka II to warm your bones. Its HyVent 2L fabric is waterproof and breathable so you stay dry and comfortable while you stroll through snowy storms, and the lightweight 550-fill down insulation keeps you toasty in the dead of winter. A slim fit with a mid-thigh cut and an insulated hood keeps you stylishly warm from your knees to your ears. The adjustable hood lets you cinch it down when the winds really start to blow, and it's also removable for easy adaptability when the sun comes out. And, an internal media pocket and cord guide let you enjoy your tunes while you explore the city.
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - Lightweight down parka for warmth in frigid temps
+ - Waterproof, breathable 2L fabric keeps you comfortably dry
+ - Lofty down insulation traps body heat for all-day warmth
+ - Raglan sleeves promote unrestricted range of motion
+ - Drop tail hem adds extra coverage from elements
+ - Internal media pocket for phone storage
+ - Adjustable, removable faux fur hood adds versatile style
+ - Slim fit offers a flattering silhouette",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
