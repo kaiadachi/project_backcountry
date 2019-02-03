@@ -27,7 +27,7 @@ def goNext(driver, init_url):
 
     return driver
 
-def createCsv(data, name, folder_csv):
+def createCsv(data, folder_csv, name):
     try:
             data.to_csv('{0}/{1}'.format(folder_csv, name))
     except:

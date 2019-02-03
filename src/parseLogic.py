@@ -2,14 +2,20 @@ import pandas as pd
 import time
 from src.utility import *
 from src.upc import *
+import traceback
 
 def parse(driver, item, df, folder_img):
-    item['name'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
-    item['product'] = driver.find_element_by_xpath('//meta[@itemprop = "productID"]').get_attribute('content')
+    try:
+        item['name'] = driver.find_element_by_xpath('//h1[@class="product-name qa-product-title"]').text
+        item['product'] = driver.find_element_by_xpath('//meta[@itemprop = "productID"]').get_attribute('content')
+        item['brand'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
+    except Exception as e:
+        print(traceback.format_exc())
+
     try:
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
-    except:
-        item['price'] = ''
+    except Exception as e:
+        print(traceback.format_exc())
 
     description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
     for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
@@ -58,6 +64,5 @@ def parse(driver, item, df, folder_img):
 
             series = pd.Series(item)
             df = df.append(series, ignore_index = True)
-
 
     return df

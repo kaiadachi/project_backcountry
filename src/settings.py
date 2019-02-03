@@ -15,6 +15,7 @@ def setConst():
 def setStructure():
     item = {
         'name': '',
+        'brand': '',
         'product': '',
         'upc': '',
         'img_name': '',
@@ -22,9 +23,16 @@ def setStructure():
         'color': '',
         'size': '',
         'stock': '',
-        'description':'',
+        'department_name': 'レディーズ',
+        'description': '',
         'Material':'',
-        'parent_child': ''
+        'parent_child': '',
+        'distribution': 'JP Parallel Import',
+        'feed_product_type': 'outerwear',
+        'product_id_type': 'UPC',
+        'recommended_browse_nodes': '2131480051',
+        'condition': 'ć°ĺ',
+        'updata_delete': 'Update'
     }
 
     return item
@@ -32,6 +40,7 @@ def setStructure():
 def setPandas():
     col = [
         'name',
+        'brand',
         'product',
         'upc',
         'img_name',
@@ -39,9 +48,16 @@ def setPandas():
         'color',
         'size',
         'stock',
+        'department_name',
         'description',
         'Material',
-        'parent_child'
+        'parent_child',
+        'distribution',
+        'feed_product_type',
+        'product_id_type',
+        'recommended_browse_nodes',
+        'condition',
+        'updata_delete'
     ]
 
     return pd.DataFrame(index=[], columns=col)

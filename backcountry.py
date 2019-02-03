@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from src.settings import *
 from src.utility import *
 from src.parseLogic import *
+from src.convert import *
 
 def setSelenium(target_url):
     # options = Options()
@@ -50,5 +51,7 @@ if __name__ == '__main__':
         driver.get(url)
         df = parseElement(driver, df, init['folder'] + '_img')
 
-    createCsv(df, init['csv_name'], init['folder'] + '_csv')
+    createCsv(df, init['folder'] + '_csv', init['csv_name'], )
     driver.close()
+
+    convertAmazon()
