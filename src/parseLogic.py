@@ -5,6 +5,8 @@ from src.upc import *
 import traceback
 
 def parse(driver, item, df, folder_img):
+    item['url'] = driver.current_url
+
     try:
         item['name'] = driver.find_element_by_xpath('//h1[@class="product-name qa-product-title"]').text
         item['product'] = driver.find_element_by_xpath('//meta[@itemprop = "productID"]').get_attribute('content')
@@ -14,8 +16,14 @@ def parse(driver, item, df, folder_img):
 
     try:
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
-    except Exception as e:
-        print(traceback.format_exc())
+    except:
+        try:
+            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale js-product-pricing__sale"]').text
+        except:
+            try:
+                item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
+            except Exception as e:
+                print(traceback.format_exc())
 
     description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
     for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):

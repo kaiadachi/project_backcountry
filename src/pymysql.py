@@ -1,7 +1,7 @@
 import MySQLdb
 import pandas as pd
 
-##　MySQLへの接続を行う関数
+## MySQLへの接続を行う関数
 def getConnect():
     conn = MySQLdb.connect(
         host = '192.168.33.10',

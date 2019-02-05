@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 def searchUpc(sku):
     driver = webdriver.Chrome()
     driver.get('https://upcdeal.us')
-    driver.implicitly_wait(20)
+    driver.implicitly_wait(10)
 
     input = driver.find_element_by_xpath('//div[@class = "small-10 columns"]/input')
     input.send_keys(sku)

@@ -5,7 +5,7 @@ def setConst():
         'url': 'https://www.backcountry.com/womens-clothing-best-sellers',
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
-        'limit': 1,
+        'limit': 3,
         'folder': 'backcountry',
         'csv_name': 'backcountry.csv'
     }
@@ -32,7 +32,8 @@ def setStructure():
         'product_id_type': 'UPC',
         'recommended_browse_nodes': '2131480051',
         'condition': 'new',
-        'update_delete': 'Update'
+        'update_delete': 'Update',
+        'url': ''
     }
 
     return item
@@ -57,7 +58,8 @@ def setPandas():
         'product_id_type',
         'recommended_browse_nodes',
         'condition',
-        'update_delete'
+        'update_delete',
+        'url'
     ]
 
     return pd.DataFrame(index=[], columns=col)
