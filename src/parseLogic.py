@@ -11,7 +11,7 @@ def parse(driver, item, df, folder_img):
     item['url'] = driver.current_url
 
     try:
-        item['product'] = driver.find_element_by_xpath('//li[@class="product-details-accordion__item-number product-details-accordion__bulletpoint"]').text.replace("Item #", "")
+        item['product'] = driver.find_elements_by_xpath('//ul[@class="product-details-accordion__list"]/li')[-1].text.replace("Item #", "")
         item['name'] = driver.find_element_by_xpath('//h1[@class="product-name qa-product-title"]').text
         item['brand'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
     except Exception as e:
@@ -54,6 +54,7 @@ def parse(driver, item, df, folder_img):
 
     item['parent_sku'] = item['product']
     item['parent_child'] = 'child'
+    item['relationship_type'] = 'Variation'
 
     # upc
     browser = webdriver.Chrome()
@@ -77,7 +78,7 @@ def parse(driver, item, df, folder_img):
                 size_selectbox.click()
                 size_btn.click()
 
-                item['stock'] = 1
+                item['stock'] = '1'
                 item['size'] = size
 
                 item['product'] = driver.find_element_by_xpath('//input[@class = "js-selected-product-variant"]').get_attribute('value')

@@ -12,7 +12,7 @@ def convertAmazon():
     skip_df = pd.read_csv('template/temple.csv', encoding='Shift_jis', names=header_df.columns)
 
     header_df['feed_product_type'] = main_df['feed_product_type']
-    header_df['item_sku'] = main_df['product'] + ' ' + main_df['color'] + ' ' + main_df['size']
+    header_df['item_sku'] = main_df['product']
     header_df['brand_name'] = main_df['brand']
     header_df['item_name'] = main_df['name'] + ' ' + main_df['color'] + ' ' + main_df['size']
     header_df['external_product_id'] = main_df['upc']
@@ -32,9 +32,13 @@ def convertAmazon():
     header_df['relationship_type'] = main_df['relationship_type']
     header_df['variation_theme'] = main_df['variation_theme']
     header_df['parent_sku'] = main_df['parent_sku']
+    header_df['fulfillment_latency'] = main_df['fulfillment_latency']
+    header_df['distribution_designation'] = main_df['distribution']
+    header_df['merchant_shipping_group_name'] = main_df['merchant_shipping_group_name']
 
     result_df = pd.concat([skip_df, header_df])
-    createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.csv'.format(init['folder']), False)
+    createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.txt'.format(init['folder']), False, '\t')
+    createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.csv'.format(init['folder']), False, ',')
 
 if __name__ == '__main__':
     convertAmazon()

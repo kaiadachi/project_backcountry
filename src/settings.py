@@ -8,7 +8,7 @@ def setConst():
         'limit': 1,
         'folder': 'backcountry',
         'csv_name': 'backcountry.csv',
-        'weight': 220
+        'weight': 275
     }
 
     return init
@@ -36,8 +36,10 @@ def setStructure():
         'update_delete': 'Update',
         'url': '',
         'variation_theme': 'SizeColor',
-        'relationship_type': 'Variation',
-        'parent_sku': ''
+        'relationship_type': '',
+        'parent_sku': '',
+        'fulfillment_latency': '14',
+        'merchant_shipping_group_name': 'テスト'
     }
 
     return item

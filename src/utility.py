@@ -29,11 +29,11 @@ def goNext(driver, init_url):
 
     return driver
 
-def createCsv(data, folder_csv, name, isHeader):
+def createCsv(data, folder_csv, name, isHeader, sep):
     fliename = '{0}/{1}'.format(folder_csv, name)
     try:
         with codecs.open(fliename, mode='w' ,encoding="Shift_jis", errors='ignore') as f:
-            data.to_csv(f, index=False, header=isHeader)
+            data.to_csv(f, index=False, header=isHeader, sep=sep)
     except Exception as e:
         print(traceback.format_exc())
         try:
