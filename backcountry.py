@@ -51,7 +51,7 @@ if __name__ == '__main__':
         driver.get(url)
         df = parseElement(driver, df, init['folder'] + '_img')
 
-    createCsv(df, init['folder'] + '_csv', init['csv_name'], )
+    createCsv(df, init['folder'] + '_csv', init['csv_name'], True)
     driver.close()
 
     convertAmazon()

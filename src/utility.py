@@ -1,5 +1,7 @@
 import requests
 import pandas as pd
+import codecs
+import traceback
 
 def saveImg(img_url, folder_name):
     if("https:" not in img_url):
@@ -27,11 +29,14 @@ def goNext(driver, init_url):
 
     return driver
 
-def createCsv(data, folder_csv, name):
+def createCsv(data, folder_csv, name, isHeader):
+    fliename = '{0}/{1}'.format(folder_csv, name)
     try:
-            data.to_csv('{0}/{1}'.format(folder_csv, name))
-    except:
+        with codecs.open(fliename, mode='w' ,encoding="Shift_jis", errors='ignore') as f:
+            data.to_csv(f, index=False, header=isHeader)
+    except Exception as e:
+        print(traceback.format_exc())
         try:
-            data.to_csv('{0}/{1}'.format(folder_csv, name), encoding="Shift_jis")
+            data.to_csv(fliename, encoding="utf-8")
         except:
-            data.to_csv('{0}/{1}'.format(folder_csv, name), encoding="utf-8")
+            data.to_csv(fliename)

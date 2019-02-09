@@ -5,7 +5,7 @@ from src.utility import *
 def convertAmazon():
     init = setConst()
 
-    main_df = pd.read_csv('{0}/{1}'.format(init['folder'] + '_csv', init['csv_name']))
+    main_df = pd.read_csv('{0}/{1}'.format(init['folder'] + '_csv', init['csv_name']), encoding="Shift_jis")
     main_df = main_df.fillna(' ')
 
     header_df = pd.read_csv('template/temple.csv', encoding='Shift_jis', header=2)
@@ -26,6 +26,9 @@ def convertAmazon():
     header_df['color_map'] = main_df['color']
 
     header_df['quantity'] = main_df['stock']
+    header_df['standard_price'] = main_df['price']
+
+
 
 
     header_df['parent_child'] = main_df['parent_child']
@@ -33,7 +36,7 @@ def convertAmazon():
     header_df['product_description'] = main_df['description']
 
     result_df = pd.concat([skip_df, header_df])
-    createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.csv'.format(init['folder']))
+    createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.csv'.format(init['folder']), False)
 
 if __name__ == '__main__':
     convertAmazon()

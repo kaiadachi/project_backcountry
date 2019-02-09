@@ -2,7 +2,9 @@ import pandas as pd
 import time
 from src.utility import *
 from src.upc import *
+from src.settings import *
 import traceback
+
 
 def parse(driver, item, df, folder_img):
     item['url'] = driver.current_url
@@ -24,6 +26,9 @@ def parse(driver, item, df, folder_img):
                 item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
             except Exception as e:
                 print(traceback.format_exc())
+
+    item['price'] = item['price'].replace('$', '')
+    item['price'] = float(item['price']) * setConst()['weight']
 
     description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
     for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
