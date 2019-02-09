@@ -12,6 +12,7 @@ def searchUpc(sku):
     input = driver.find_element_by_xpath('//div[@class = "small-10 columns"]/input')
     input.send_keys(sku)
 
+
     # button
     driver.find_element_by_xpath('//button[@class = "button tiny postfix"]').click()
 

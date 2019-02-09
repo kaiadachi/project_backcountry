@@ -12,7 +12,7 @@ def convertAmazon():
     skip_df = pd.read_csv('template/temple.csv', encoding='Shift_jis', names=header_df.columns)
 
     header_df['feed_product_type'] = main_df['feed_product_type']
-    header_df['item_sku'] = main_df['product']
+    header_df['item_sku'] = main_df['product'] + ' ' + main_df['color'] + ' ' + main_df['size']
     header_df['brand_name'] = main_df['brand']
     header_df['item_name'] = main_df['name'] + ' ' + main_df['color'] + ' ' + main_df['size']
     header_df['external_product_id'] = main_df['upc']
