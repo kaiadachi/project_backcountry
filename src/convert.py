@@ -24,16 +24,14 @@ def convertAmazon():
     header_df['size_map'] = main_df['size']
     header_df['color_name'] = main_df['color']
     header_df['color_map'] = main_df['color']
-
     header_df['quantity'] = main_df['stock']
     header_df['standard_price'] = main_df['price']
-
-
-
-
     header_df['parent_child'] = main_df['parent_child']
     header_df['update_delete'] = main_df['update_delete']
     header_df['product_description'] = main_df['description']
+    header_df['relationship_type'] = main_df['relationship_type']
+    header_df['variation_theme'] = main_df['variation_theme']
+    header_df['parent_sku'] = main_df['parent_sku']
 
     result_df = pd.concat([skip_df, header_df])
     createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.csv'.format(init['folder']), False)

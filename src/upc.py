@@ -4,28 +4,29 @@ import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-def searchUpc(sku):
-    driver = webdriver.Chrome()
-    driver.get('https://upcdeal.us')
-    driver.implicitly_wait(10)
+def searchUpc(sku, browser):
+    browser.get('https://upcdeal.us')
+    browser.implicitly_wait(10)
 
-    input = driver.find_element_by_xpath('//div[@class = "small-10 columns"]/input')
+    input = browser.find_element_by_xpath('//div[@class = "small-10 columns"]/input')
     input.send_keys(sku)
 
-
     # button
-    driver.find_element_by_xpath('//button[@class = "button tiny postfix"]').click()
+    browser.find_element_by_xpath('//button[@class = "button tiny postfix"]').click()
 
     # try:
-    #     element = WebDriverWait(driver, 10).until(
+    #     element = WebbrowserWait(browser, 10).until(
     #         EC.presence_of_element_located((By.ID, "containerprice"))
     #     )
     # except:
-    #     driver.quit()
+    #     browser.quit()
 
-    upc = driver.find_element_by_xpath('//h1').text
-    upc = re.split('[ \n]', upc)[1]
-    driver.close()
+    try:
+        upc = browser.find_element_by_xpath('//h1').text
+        upc = re.split('[ \n]', upc)[1]
+    except:
+        print("Not Found UPC")
+        upc = ''
     return upc
 
 if __name__ == '__main__':

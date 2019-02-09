@@ -1,5 +1,6 @@
-name,brand,product,upc,img_name,price,color,size,stock,department_name,description,Material,parent_child,distribution,feed_product_type,product_id_type,recommended_browse_nodes,condition,update_delete,url,Claimed Weight,Fit,Length,Manufacturer Warranty,Recommended Use
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,,16335.0,,,,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+Material,brand,color,condition,department_name,description,distribution,feed_product_type,img_name,name,parent_child,parent_sku,price,product,product_id_type,recommended_browse_nodes,relationship_type,size,stock,upc,update_delete,url,variation_theme,Claimed Weight,Fit,Length,Manufacturer Warranty,Recommended Use
+,Patagonia,,new,レディーズ,,JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,parent,,,PAT010V,UPC,2131480051,Variation,,,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,,,,,
+100% polyester,Patagonia,Birch White,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -11,8 +12,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Parent,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BIRWH.jpg,16335.0,Birch White,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BIRWH-XXS,UPC,2131480051,Variation,XXS,1,888336848288,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Birch White,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -24,8 +25,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BIRWH.jpg,16335.0,Birch White,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BIRWH-XS,UPC,2131480051,Variation,XS,1,888336466048,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Birch White,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -37,8 +38,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BIRWH.jpg,16335.0,Birch White,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BIRWH-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Birch White,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -50,8 +51,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BIRWH.jpg,16335.0,Birch White,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BIRWH-M,UPC,2131480051,Variation,M,1,888336466062,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Birch White,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -63,8 +64,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BIRWH.jpg,16335.0,Birch White,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BIRWH-L,UPC,2131480051,Variation,L,1,888336466079,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Birch White,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -76,8 +77,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BIRWH.jpg,16335.0,Birch White,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BIRWH-XL,UPC,2131480051,Variation,XL,1,888336466086,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Flora Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -89,8 +90,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,FLOPK.jpg,16335.0,Flora Pink,XXS,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-FLOPK-XS,UPC,2131480051,Variation,XS,1,191743668456,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Flora Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -102,8 +103,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,FLOPK.jpg,16335.0,Flora Pink,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-FLOPK-M,UPC,2131480051,Variation,M,1,191743668470,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Flora Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -115,8 +116,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,FLOPK.jpg,16335.0,Flora Pink,S,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-FLOPK-L,UPC,2131480051,Variation,L,1,191743668487,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Flora Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -128,8 +129,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,FLOPK.jpg,16335.0,Flora Pink,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-FLOPK-XL,UPC,2131480051,Variation,XL,1,191743668494,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Light Violet Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -141,8 +142,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,FLOPK.jpg,16335.0,Flora Pink,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-LTVIBL-XXS,UPC,2131480051,Variation,XXS,1,191743581656,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Light Violet Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -154,8 +155,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,FLOPK.jpg,16335.0,Flora Pink,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-LTVIBL-XS,UPC,2131480051,Variation,XS,1,191743581687,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Light Violet Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -167,8 +168,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,LTVIBL.jpg,16335.0,Light Violet Blue,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-LTVIBL-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Light Violet Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -180,8 +181,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,LTVIBL.jpg,16335.0,Light Violet Blue,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-LTVIBL-M,UPC,2131480051,Variation,M,1,191743581731,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Light Violet Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -193,8 +194,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,LTVIBL.jpg,16335.0,Light Violet Blue,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-LTVIBL-L,UPC,2131480051,Variation,L,1,191743581755,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Light Violet Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -206,8 +207,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,LTVIBL.jpg,16335.0,Light Violet Blue,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-LTVIBL-XL,UPC,2131480051,Variation,XL,1,191743581779,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Matcha Green,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -219,8 +220,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,LTVIBL.jpg,16335.0,Light Violet Blue,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-MATGN-XS,UPC,2131480051,Variation,XS,1,191743583025,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Matcha Green,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -232,8 +233,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,LTVIBL.jpg,16335.0,Light Violet Blue,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-MATGN-M,UPC,2131480051,Variation,M,1,191743583056,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Tasmanian Teal,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -245,8 +246,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,MATGN.jpg,16335.0,Matcha Green,XXS,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-TASTL-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Tasmanian Teal,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -258,8 +259,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,MATGN.jpg,16335.0,Matcha Green,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-TASTL-M,UPC,2131480051,Variation,M,1,191743583827,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Tasmanian Teal,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -271,8 +272,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,MATGN.jpg,16335.0,Matcha Green,S,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-TASTL-L,UPC,2131480051,Variation,L,1,191743583841,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Tasmanian Teal,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -284,8 +285,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,MATGN.jpg,16335.0,Matcha Green,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-TASTL-XL,UPC,2131480051,Variation,XL,1,191743583865,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Classic Navy,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -297,8 +298,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,MATGN.jpg,16335.0,Matcha Green,L,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-CLANV-XXS,UPC,2131480051,Variation,XXS,1,888336848394,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Classic Navy,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -310,8 +311,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,MATGN.jpg,16335.0,Matcha Green,XL,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-CLANV-XS,UPC,2131480051,Variation,XS,1,888336466345,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Classic Navy,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -323,8 +324,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,TASTL.jpg,16335.0,Tasmanian Teal,XXS,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-CLANV-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Classic Navy,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -336,8 +337,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,TASTL.jpg,16335.0,Tasmanian Teal,XS,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-CLANV-M,UPC,2131480051,Variation,M,1,888336466369,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Classic Navy,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -349,8 +350,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,TASTL.jpg,16335.0,Tasmanian Teal,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-CLANV-L,UPC,2131480051,Variation,L,1,888336466376,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Classic Navy,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -362,8 +363,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,TASTL.jpg,16335.0,Tasmanian Teal,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-CLANV-XL,UPC,2131480051,Variation,XL,1,888336466383,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Black,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -375,8 +376,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,TASTL.jpg,16335.0,Tasmanian Teal,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BK-XXS,UPC,2131480051,Variation,XXS,1,888336848363,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Black,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -388,8 +389,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,TASTL.jpg,16335.0,Tasmanian Teal,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BK-XS,UPC,2131480051,Variation,XS,1,888336466147,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Black,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -401,8 +402,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,CLANV.jpg,16335.0,Classic Navy,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BK-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Black,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -414,8 +415,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,CLANV.jpg,16335.0,Classic Navy,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BK-M,UPC,2131480051,Variation,M,1,888336466161,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Black,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -427,8 +428,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,CLANV.jpg,16335.0,Classic Navy,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BK-L,UPC,2131480051,Variation,L,1,888336466178,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Black,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -440,8 +441,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,CLANV.jpg,16335.0,Classic Navy,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-BK-XL,UPC,2131480051,Variation,XL,1,888336466185,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Dark Currant,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -453,8 +454,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,CLANV.jpg,16335.0,Classic Navy,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-DARCUR-XXS,UPC,2131480051,Variation,XXS,1,191743336928,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Dark Currant,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -466,8 +467,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,CLANV.jpg,16335.0,Classic Navy,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-DARCUR-XS,UPC,2131480051,Variation,XS,1,191743336959,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Dark Currant,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -479,8 +480,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BK.jpg,16335.0,Black,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-DARCUR-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Dark Currant,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -492,8 +493,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BK.jpg,16335.0,Black,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-DARCUR-M,UPC,2131480051,Variation,M,1,191743337017,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Kiln Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -505,8 +506,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BK.jpg,16335.0,Black,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-KILPK-XXS,UPC,2131480051,Variation,XXS,1,191743245381,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Kiln Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -518,8 +519,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BK.jpg,16335.0,Black,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-KILPK-XS,UPC,2131480051,Variation,XS,1,191743245398,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Kiln Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -531,8 +532,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BK.jpg,16335.0,Black,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-KILPK-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Kiln Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -544,8 +545,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,BK.jpg,16335.0,Black,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-KILPK-M,UPC,2131480051,Variation,M,1,191743245411,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Kiln Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -557,8 +558,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,DARCUR.jpg,16335.0,Dark Currant,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-KILPK-L,UPC,2131480051,Variation,L,1,191743245428,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Kiln Pink,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -570,8 +571,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,DARCUR.jpg,16335.0,Dark Currant,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-KILPK-XL,UPC,2131480051,Variation,XL,1,191743245435,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Pelican,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -583,8 +584,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,DARCUR.jpg,16335.0,Dark Currant,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-PEL-XXS,UPC,2131480051,Variation,XXS,1,190696226713,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Pelican,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -596,8 +597,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,DARCUR.jpg,16335.0,Dark Currant,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-PEL-XS,UPC,2131480051,Variation,XS,1,190696226720,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Pelican,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -609,8 +610,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,DARCUR.jpg,16335.0,Dark Currant,L,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-PEL-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Pelican,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -622,8 +623,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,DARCUR.jpg,16335.0,Dark Currant,XL,0,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-PEL-M,UPC,2131480051,Variation,M,1,190696226744,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Pelican,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -635,8 +636,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,KILPK.jpg,16335.0,Kiln Pink,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-PEL-L,UPC,2131480051,Variation,L,1,190696226751,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Pelican,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -648,8 +649,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,KILPK.jpg,16335.0,Kiln Pink,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-PEL-XL,UPC,2131480051,Variation,XL,1,190696226768,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Shadow Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -661,8 +662,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,KILPK.jpg,16335.0,Kiln Pink,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SHABL-XXS,UPC,2131480051,Variation,XXS,1,191743335952,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Shadow Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -674,8 +675,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,KILPK.jpg,16335.0,Kiln Pink,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SHABL-XS,UPC,2131480051,Variation,XS,1,191743335969,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Shadow Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -687,8 +688,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,KILPK.jpg,16335.0,Kiln Pink,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SHABL-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Shadow Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -700,8 +701,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,KILPK.jpg,16335.0,Kiln Pink,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SHABL-M,UPC,2131480051,Variation,M,1,191743335983,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Shadow Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -713,8 +714,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,PEL.jpg,16335.0,Pelican,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SHABL-L,UPC,2131480051,Variation,L,1,191743335990,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Shadow Blue,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -726,8 +727,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,PEL.jpg,16335.0,Pelican,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SHABL-XL,UPC,2131480051,Variation,XL,1,191743336003,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Smokey Violet,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -739,8 +740,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,PEL.jpg,16335.0,Pelican,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SMOVI-XXS,UPC,2131480051,Variation,XXS,1,191743246463,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Smokey Violet,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -752,8 +753,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,PEL.jpg,16335.0,Pelican,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SMOVI-XS,UPC,2131480051,Variation,XS,1,191743246487,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Smokey Violet,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -765,8 +766,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,PEL.jpg,16335.0,Pelican,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SMOVI-S,UPC,2131480051,Variation,S,1,,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Smokey Violet,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -778,8 +779,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,PEL.jpg,16335.0,Pelican,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SMOVI-M,UPC,2131480051,Variation,M,1,191743246524,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Smokey Violet,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -791,8 +792,8 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SHABL.jpg,16335.0,Shadow Blue,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SMOVI-L,UPC,2131480051,Variation,L,1,191743246531,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+100% polyester,Patagonia,Smokey Violet,new,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
  - An all-around performer for hiking, climbing, and skiing
  - Better Sweater fabric insulates and manages moisture
  - Soft fleece interior provides additional warmth
@@ -804,147 +805,4 @@ Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH
  - Soft fleece interior provides additional warmth
  - 1/4-zip front pullover design for easy ventilation
  - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SHABL.jpg,16335.0,Shadow Blue,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SHABL.jpg,16335.0,Shadow Blue,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SHABL.jpg,16335.0,Shadow Blue,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SHABL.jpg,16335.0,Shadow Blue,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SHABL.jpg,16335.0,Shadow Blue,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SMOVI.jpg,16335.0,Smokey Violet,XXS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SMOVI.jpg,16335.0,Smokey Violet,XS,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SMOVI.jpg,16335.0,Smokey Violet,S,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SMOVI.jpg,16335.0,Smokey Violet,M,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SMOVI.jpg,16335.0,Smokey Violet,L,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
-Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,Patagonia,PAT010V-BIRWH-XXS,888336848288,SMOVI.jpg,16335.0,Smokey Violet,XL,1,レディーズ,"The Patagonia Women's Better Sweater 1/4-Zip Fleece Pullover is better for skiing, hiking, and camping than most sweaters. A slim fit pulls this sweater's soft fleece closer to your body for more comfort, and it's easier to layer your ski shell or rain jacket over. Patagonia added a 1/4-zip front in case you work up a sweat, and the zippered sleeve pocket secures your valuables.
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear
- - An all-around performer for hiking, climbing, and skiing
- - Better Sweater fabric insulates and manages moisture
- - Soft fleece interior provides additional warmth
- - 1/4-zip front pullover design for easy ventilation
- - Slim fit reduces bagginess for easy layering
- - Patagonia is committed to producing sustainable outdoor gear",100% polyester,Child,JP Parallel Import,outerwear,UPC,2131480051,new,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,13 oz,slim,hip,lifetime,"skiing, hiking & camping"
+ - Patagonia is committed to producing sustainable outdoor gear",JP Parallel Import,outerwear,,Patagonia Better Sweater 1/4-Zip Fleece Jacket - Women's,child,PAT010V,16335.0,PAT010V-SMOVI-XL,UPC,2131480051,Variation,XL,1,191743246555,Update,https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-KILPK-XXS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n,SizeColor,13 oz,slim,hip,lifetime,"skiing, hiking & camping"

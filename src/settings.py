@@ -34,33 +34,34 @@ def setStructure():
         'recommended_browse_nodes': '2131480051',
         'condition': 'new',
         'update_delete': 'Update',
-        'url': ''
+        'url': '',
+        'variation_theme': 'SizeColor',
+        'relationship_type': 'Variation',
+        'parent_sku': ''
     }
 
     return item
 
-def setPandas():
-    col = [
-        'name',
-        'brand',
-        'product',
-        'upc',
-        'img_name',
-        'price',
-        'color',
-        'size',
-        'stock',
-        'department_name',
-        'description',
-        'Material',
-        'parent_child',
-        'distribution',
-        'feed_product_type',
-        'product_id_type',
-        'recommended_browse_nodes',
-        'condition',
-        'update_delete',
-        'url'
-    ]
-
-    return pd.DataFrame(index=[], columns=col)
+# def setPandas():
+    # col = [
+    #     'name',
+    #     'brand',
+    #     'product',
+    #     'upc',
+    #     'img_name',
+    #     'price',
+    #     'color',
+    #     'size',
+    #     'stock',
+    #     'department_name',
+    #     'description',
+    #     'Material',
+    #     'parent_child',
+    #     'distribution',
+    #     'feed_product_type',
+    #     'product_id_type',
+    #     'recommended_browse_nodes',
+    #     'condition',
+    #     'update_delete',
+    #     'url'
+    # ]

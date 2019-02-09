@@ -40,7 +40,7 @@ def parseElement(driver, df, folder_img):
 
 if __name__ == '__main__':
     init = setConst()
-    df = setPandas()
+    df = pd.DataFrame(index=[])
     driver = setSelenium(init['url'])
     driver.implicitly_wait(20)
     last_page = getLastPage(driver)
