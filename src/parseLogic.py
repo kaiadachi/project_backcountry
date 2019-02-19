@@ -31,10 +31,14 @@ def parse(driver, item, df, folder_img):
         except:
             try:
                 item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
-            except Exception as e:
-                print(traceback.format_exc())
+            except:
+                try:
+                    item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail"]').text
+                except Exception as e:
+                    print(traceback.format_exc())
 
     item['price'] = item['price'].replace('$', '')
+    item['price'] = item['price'].replace(',', '')
     item['price'] = float(item['price']) * setConst()['weight']
 
     description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
