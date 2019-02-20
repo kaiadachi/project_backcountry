@@ -19,6 +19,11 @@ def parse(driver, item, df, folder_img):
 
     item['parent_child'] = 'parent'
 
+    description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
+    for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
+        description = description + '\n - ' + i.text
+    item['description'] = description
+
     series = pd.Series(item)
     df = df.append(series, ignore_index = True)
 
@@ -41,11 +46,6 @@ def parse(driver, item, df, folder_img):
     item['price'] = item['price'].replace(',', '')
     item['price'] = float(item['price']) * setConst()['weight']
 
-    description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
-    for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
-        description = description + '\n - ' + i.text
-    item['description'] = description
-
     # driver.find_element_by_xpath('//span[@class = "ui-accordion-header-icon ui-icon product-details-accordion__header--inactive"]').click()
     name_selector = driver.find_elements_by_xpath('//div[@class = "td ui-product-details__techspec-name"]')
     value_selector = driver.find_elements_by_xpath('//div[@class = "td ui-product-details__techspec-value"]')
@@ -59,6 +59,7 @@ def parse(driver, item, df, folder_img):
     item['parent_sku'] = item['product']
     item['parent_child'] = 'child'
     item['relationship_type'] = 'Variation'
+    item['description'] = ''
 
     # upc
     browser = webdriver.Chrome()
