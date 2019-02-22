@@ -35,6 +35,7 @@ def convertAmazon():
     header_df['fulfillment_latency'] = main_df['fulfillment_latency']
     header_df['distribution_designation'] = main_df['distribution']
     header_df['merchant_shipping_group_name'] = main_df['merchant_shipping_group_name']
+    header_df['main_image_url'] = init['image_path'] + main_df['img_name']
 
     result_df = pd.concat([skip_df, header_df])
     createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.txt'.format(init['folder']), False, '\t')

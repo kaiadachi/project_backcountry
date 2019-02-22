@@ -73,8 +73,11 @@ def parse(driver, item, df, folder_img, trans_browser):
         color_selectbox.click()
         color_btn.click()
 
-        # img_url = driver.find_element_by_xpath('//li[@class="ui-flexslider__item js-flexslider-item ui-flexslider-active-slide"]//img').get_attribute('src')
-        # item['img_name'] = saveImg(img_url, folder_img)
+        try:
+            img_url = driver.find_element_by_xpath('//li[@class="ui-flexslider__item js-flexslider-item ui-flexslider-active-slide"]//img').get_attribute('src')
+            item['img_name'] = saveImg(img_url, folder_img)
+        except:
+            print('img error')
 
         size_selector = driver.find_elements_by_xpath('//*[@id="size-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
         isinActives = getAttribute(size_selector, 'class')
