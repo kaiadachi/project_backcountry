@@ -3,6 +3,7 @@ import time
 from src.utility import *
 from src.upc import *
 from src.settings import *
+from src.googleTrans import *
 import traceback
 
 
