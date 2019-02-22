@@ -25,6 +25,7 @@ def setStructure():
         'size': '',
         'stock': '',
         'department_name': 'レディーズ',
+        'en_description': '',
         'description': '',
         'Material':'',
         'parent_child': '',

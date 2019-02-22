@@ -32,9 +32,9 @@ def getHref(driver, last_page, limit):
 
     return driver, urls
 
-def parseElement(driver, df, folder_img):
+def parseElement(driver, df, folder_img, trans_browser):
     item = setStructure()
-    df = parse(driver, item, df, folder_img)
+    df = parse(driver, item, df, folder_img, trans_browser)
 
     return df
 
@@ -42,16 +42,19 @@ if __name__ == '__main__':
     init = setConst()
     df = pd.DataFrame(index=[])
     driver = setSelenium(init['url'])
-    driver.implicitly_wait(20)
+    trans_browser = webdriver.Chrome()
+    trans_browser.implicitly_wait(10)
+    driver.implicitly_wait(10)
     last_page = getLastPage(driver)
     driver, urls = getHref(driver, last_page, init['limit'])
 
     for count, url in enumerate(urls):
         print("Now: {0}/{1}".format(count+1, init['limit']))
         driver.get(url)
-        df = parseElement(driver, df, init['folder'] + '_img')
+        df = parseElement(driver, df, init['folder'] + '_img', trans_browser)
 
     createCsv(df, init['folder'] + '_csv', init['csv_name'], True, ',')
     driver.close()
+    trans_browser.close()
 
     convertAmazon()

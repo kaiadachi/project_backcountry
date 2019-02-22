@@ -4,10 +4,8 @@ import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-def doTrans(sentence):
-    browser = webdriver.Chrome()
+def doTrans(sentence, browser):
     browser.get('https://translate.google.co.jp/')
-    browser.implicitly_wait(10)
 
     input = browser.find_element_by_xpath('//*[@id="source"]')
     input.send_keys(sentence)

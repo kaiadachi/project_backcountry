@@ -6,7 +6,7 @@ from src.settings import *
 import traceback
 
 
-def parse(driver, item, df, folder_img):
+def parse(driver, item, df, folder_img, trans_browser):
     # parent
     item['url'] = driver.current_url
 
@@ -22,7 +22,10 @@ def parse(driver, item, df, folder_img):
     description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
     for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
         description = description + '\n - ' + i.text
-    item['description'] = description
+    item['en_description'] = description
+
+    # Google Translate
+    item['description'] = doTrans(item['en_description'], trans_browser)
 
     series = pd.Series(item)
     df = df.append(series, ignore_index = True)
@@ -62,7 +65,8 @@ def parse(driver, item, df, folder_img):
     item['description'] = ''
 
     # upc
-    browser = webdriver.Chrome()
+    upc_browser = webdriver.Chrome()
+    upc_browser.implicitly_wait(10)
     for color, color_btn in zip(colors, color_selector):
         color_selectbox = driver.find_element_by_xpath('//*[@id="product-color-select"]')
         color_selectbox.click()
@@ -88,10 +92,10 @@ def parse(driver, item, df, folder_img):
 
                 item['product'] = driver.find_element_by_xpath('//input[@class = "js-selected-product-variant"]').get_attribute('value')
                 print(item['product'])
-                item['upc'] = searchUpc(item['product'], browser)
+                item['upc'] = searchUpc(item['product'], upc_browser)
 
                 series = pd.Series(item)
                 df = df.append(series, ignore_index = True)
 
-    browser.close()
+    upc_browser.close()
     return df
