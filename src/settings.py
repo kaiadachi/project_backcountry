@@ -5,11 +5,12 @@ def setConst():
         'url': 'https://www.backcountry.com/womens-clothing-best-sellers',
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
-        'limit': 2,
+        'limit': 1,
         'folder': 'backcountry',
         'csv_name': 'backcountry.csv',
         'weight': 275,
-        'image_path': 'http://kai8217.xsrv.jp/backcountry_img/'
+        'image_path': 'http://kai8217.xsrv.jp/backcountry_img/',
+        'limit_img_sub': 6
     }
 
     return init
@@ -21,6 +22,8 @@ def setStructure():
         'product': '',
         'upc': '',
         'img_name': '',
+        'img_main': '',
+        'img_sub': '',
         'price': '',
         'color': '',
         'size': '',
@@ -32,7 +35,7 @@ def setStructure():
         'parent_child': '',
         'distribution': 'JP Parallel Import',
         'feed_product_type': 'outerwear',
-        'product_id_type': 'UPC',
+        'product_id_type': '',
         'recommended_browse_nodes': '2131480051',
         'condition': 'new',
         'update_delete': 'Update',

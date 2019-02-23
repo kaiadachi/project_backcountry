@@ -37,6 +37,12 @@ def convertAmazon():
     header_df['merchant_shipping_group_name'] = main_df['merchant_shipping_group_name']
     header_df['main_image_url'] = init['image_path'] + main_df['img_name']
 
+    try:
+        for i in range(1, init['limit_img_sub']):
+            header_df['other_image_url_{0}'.format(i)] = init['image_path'] + main_df['img_sub_{0}'.format(i)]
+    except:
+        pass
+
     result_df = pd.concat([skip_df, header_df])
     createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.txt'.format(init['folder']), False, '\t')
     createCsv(result_df, '{0}_csv'.format(init['folder']), '{0}_amazon.csv'.format(init['folder']), False, ',')

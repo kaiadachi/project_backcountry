@@ -8,6 +8,7 @@ import traceback
 
 
 def parse(driver, item, df, folder_img, trans_browser):
+    init = setConst()
     # parent
     item['url'] = driver.current_url
 
@@ -26,11 +27,40 @@ def parse(driver, item, df, folder_img, trans_browser):
     item['en_description'] = description
 
     # Google Translate
-    item['en_description'].replace('-', '')
+    item['en_description'] = item['en_description'].replace('-', '')
     item['description'] = doTrans(item['en_description'], trans_browser)
+
+    try:
+        img_parent = driver.find_elements_by_xpath('//ul[@class = "product-detail-imgs__ul"]/li/img')
+        img_parent_src = getAttribute(img_parent, 'src')
+        img_parent_name = [saveImg(src, folder_img) for src in img_parent_src]
+
+        for i, name in enumerate(img_parent_name):
+            if i == 0:
+                item['img_name'] = img_parent_name[i]
+            else:
+                item['img_sub_{0}'.format(i)] =  img_parent_name[i]
+
+            if i == init['limit_img_sub']:
+                break
+    except:
+        print('miss main_img emergency')
+        img_parent = driver.find_element_by_xpath('//img[@class = "product-detail-imgs__img js-active-color-img js-product-detail-img is-active').getAttribute('src')
+        item['name'] = saveImg(img_parent, folder_img)
+
 
     series = pd.Series(item)
     df = df.append(series, ignore_index = True)
+
+    try:
+        for i, name in enumerate(img_parent_name):
+            if i == 0:
+                pass
+            else:
+                item['img_sub_{0}'.format(i)] = ''
+    except:
+        pass
+
 
     # child
     try:
@@ -49,7 +79,7 @@ def parse(driver, item, df, folder_img, trans_browser):
 
     item['price'] = item['price'].replace('$', '')
     item['price'] = item['price'].replace(',', '')
-    item['price'] = float(item['price']) * setConst()['weight']
+    item['price'] = float(item['price']) * init['weight']
 
     # driver.find_element_by_xpath('//span[@class = "ui-accordion-header-icon ui-icon product-details-accordion__header--inactive"]').click()
     name_selector = driver.find_elements_by_xpath('//div[@class = "td ui-product-details__techspec-name"]')
@@ -61,6 +91,7 @@ def parse(driver, item, df, folder_img, trans_browser):
     color_selector = driver.find_elements_by_xpath('//*[@id="color-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
     colors = getAttribute(color_selector, 'data-img-title')
 
+    item['product_id_type'] = 'UPC'
     item['parent_sku'] = item['product']
     item['parent_child'] = 'child'
     item['relationship_type'] = 'Variation'
@@ -78,7 +109,7 @@ def parse(driver, item, df, folder_img, trans_browser):
             img_url = driver.find_element_by_xpath('//li[@class="ui-flexslider__item js-flexslider-item ui-flexslider-active-slide"]//img').get_attribute('src')
             item['img_name'] = saveImg(img_url, folder_img)
         except:
-            print('img error')
+            pass
 
         size_selector = driver.find_elements_by_xpath('//*[@id="size-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
         isinActives = getAttribute(size_selector, 'class')
