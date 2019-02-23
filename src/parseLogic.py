@@ -26,8 +26,8 @@ def parse(driver, item, df, folder_img, trans_browser):
     item['en_description'] = description
 
     # Google Translate
+    item['en_description'].replace('-', '')
     item['description'] = doTrans(item['en_description'], trans_browser)
-    item['description'].replace('-', '')
 
     series = pd.Series(item)
     df = df.append(series, ignore_index = True)
