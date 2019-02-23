@@ -5,7 +5,7 @@ from src.utility import *
 def convertAmazon():
     init = setConst()
 
-    main_df = pd.read_csv('{0}/{1}'.format(init['folder'] + '_csv', init['csv_name']), encoding="Shift_jis")
+    main_df = pd.read_csv('{0}/{1}'.format(init['folder'] + '_csv', init['csv_name']), encoding="Shift_jis", dtype = 'object')
     main_df = main_df.fillna(' ')
 
     header_df = pd.read_csv('template/temple.csv', encoding='Shift_jis', header=2)
