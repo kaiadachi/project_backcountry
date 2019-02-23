@@ -39,7 +39,7 @@ def convertAmazon():
 
     try:
         for i in range(1, init['limit_img_sub']):
-            header_df['other_image_url_{0}'.format(i)] = init['image_path'] + main_df['img_sub_{0}'.format(i)]
+            header_df['other_image_url{0}'.format(i)] = init['image_path'] + main_df['img_sub_{0}'.format(i)]
     except:
         pass
 
