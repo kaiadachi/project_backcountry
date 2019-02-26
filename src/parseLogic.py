@@ -33,36 +33,29 @@ def parse(driver, item, df, folder_img, trans_browser):
     try:
         img_parent = driver.find_elements_by_xpath('//ul[@class = "product-detail-imgs__ul"]/li/img')
         img_parent_src = getAttribute(img_parent, 'src')
-        img_parent_name = [saveImg(src, folder_img) for src in img_parent_src]
+        img_parent_name = [ saveImg(src, folder_img) for src in img_parent_src ]
+        item['img_name'] = img_parent_name[0]
 
-        for i, name in enumerate(img_parent_name):
-            if i == 0:
-                item['img_name'] = img_parent_name[i]
-            else:
-                item['img_sub_{0}'.format(i)] =  img_parent_name[i]
-
-            if i == init['limit_img_sub']:
-                break
     except:
         print('miss main_img emergency')
         img_parent = driver.find_element_by_xpath('//img[@class = "product-detail-imgs__img js-active-color-img js-product-detail-img is-active').getAttribute('src')
-        item['name'] = saveImg(img_parent, folder_img)
+        item['img_name'] = saveImg(img_parent, folder_img)
 
 
     series = pd.Series(item)
     df = df.append(series, ignore_index = True)
 
-    try:
-        for i, name in enumerate(img_parent_name):
-            if i == 0:
-                pass
-            else:
-                item['img_sub_{0}'.format(i)] = ''
-    except:
-        pass
-
-
     # child
+
+    try:
+        for i, name in enumerate(img_parent_name[1:]):
+            item['img_sub_{0}'.format(i+1)] =  init['image_path'] + name
+
+            if i == init['limit_img_sub']:
+                break
+    except:
+        print("********img_sub Error!!!**********")
+
     try:
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
     except:
@@ -104,12 +97,13 @@ def parse(driver, item, df, folder_img, trans_browser):
         color_selectbox = driver.find_element_by_xpath('//*[@id="product-color-select"]')
         color_selectbox.click()
         color_btn.click()
+        time.sleep(3)
 
         try:
             img_url = driver.find_element_by_xpath('//li[@class="ui-flexslider__item js-flexslider-item ui-flexslider-active-slide"]//img').get_attribute('src')
             item['img_name'] = saveImg(img_url, folder_img)
-        except:
-            pass
+        except Exception as e:
+            print(traceback.format_exc())
 
         size_selector = driver.find_elements_by_xpath('//*[@id="size-attribute-selector"]/ul[@class = "buybox-dropdown__options js-basedropdown__options"]/li')
         isinActives = getAttribute(size_selector, 'class')
