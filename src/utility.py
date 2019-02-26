@@ -9,7 +9,8 @@ def saveImg(img_url, folder_name):
 
     re = requests.get(img_url)
 
-    img_name = img_url.split('/')[-1]
+    img_name = img_url.split('/')[-2:]
+    img_name = "_".join(img_name)
     with open("{0}/{1}".format(folder_name, img_name), 'wb') as f:
         f.write(re.content)
 
