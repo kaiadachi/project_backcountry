@@ -32,7 +32,7 @@ def parse(driver, item, df, folder_img, trans_browser):
 
     try:
         img_parent = driver.find_elements_by_xpath('//ul[@class = "product-detail-imgs__ul"]/li/img')
-        img_parent_src = getAttribute(img_parent, 'src')
+        img_parent_src = getAttribute(img_parent, 'data-large-img')
         img_parent_name = [ saveImg(src, folder_img) for src in img_parent_src ]
         item['img_name'] = img_parent_name[0]
 
