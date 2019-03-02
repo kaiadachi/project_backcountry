@@ -5,7 +5,7 @@ def setConst():
         'url': 'https://www.backcountry.com/womens-clothing-best-sellers',
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
-        'limit': 30,
+        'limit': 1,
         'folder': 'backcountry',
         'csv_name': 'backcountry.csv',
         'weight': 275,
@@ -44,7 +44,8 @@ def setStructure():
         'relationship_type': '',
         'parent_sku': '',
         'fulfillment_latency': '14',
-        'merchant_shipping_group_name': 'テスト'
+        'merchant_shipping_group_name': 'テスト',
+        'condition_type': '新品'
     }
 
     return item

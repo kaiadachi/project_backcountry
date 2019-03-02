@@ -5,7 +5,7 @@ from src.utility import *
 def convertAmazon():
     init = setConst()
 
-    main_df = pd.read_csv('{0}/{1}'.format(init['folder'] + '_csv', init['csv_name']), encoding="Shift_jis", dtype = 'object')
+    main_df = pd.read_csv('{0}/{1}'.format(init['folder'] + '_csv', 'replaced_' + init['csv_name']), encoding="Shift_jis", dtype = 'object')
     main_df = main_df.fillna(' ')
 
     header_df = pd.read_csv('template/temple.csv', encoding='Shift_jis', header=2)
@@ -33,6 +33,7 @@ def convertAmazon():
     header_df['variation_theme'] = main_df['variation_theme']
     header_df['parent_sku'] = main_df['parent_sku']
     header_df['fulfillment_latency'] = main_df['fulfillment_latency']
+    header_df['condition_type'] = main_df['condition_type']
     header_df['distribution_designation'] = main_df['distribution']
     header_df['merchant_shipping_group_name'] = main_df['merchant_shipping_group_name']
     header_df['main_image_url'] = init['image_path'] + main_df['img_name']
