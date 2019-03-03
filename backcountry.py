@@ -9,6 +9,7 @@ from src.settings import *
 from src.utility import *
 from src.parseLogic import *
 from src.convert import *
+from src.toolReplace import *
 
 def setSelenium(target_url):
     # options = Options()
@@ -56,5 +57,10 @@ if __name__ == '__main__':
     createCsv(df, init['folder'] + '_csv', init['csv_name'], True, ',')
     driver.close()
     trans_browser.close()
+
+    try:
+        runCsvList(init, ['replace_csv/Material.csv', 'replace_csv/name.csv'], ['Material', 'name'])
+    except:
+        print('replace error !!!')
 
     convertAmazon()
