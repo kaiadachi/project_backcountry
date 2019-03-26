@@ -38,26 +38,58 @@ def readReplace(init, path_replce, key, orgData, replaced_csv_path):
 					newData.to_csv(replaced_csv_path, encoding='Shift-JIS', index=False)
 
 def runHeader(init, pathReplceList, headers):
-	# test
-	# replaced_csv_path = '../{0}_csv/replaced_{1}'.format(init['folder'], init['csv_name'])
-	# org_csv_path = '../{0}_csv/{1}'.format(init['folder'], init['csv_name'])
+	#test
+	replaced_csv_path = '../{0}_csv/replaced_{1}'.format(init['folder'], init['csv_name'])
+	org_csv_path = '../{0}_csv/{1}'.format(init['folder'], init['csv_name'])
 
-	replaced_csv_path = '{0}_csv/replaced_{1}'.format(init['folder'], init['csv_name'])
-	org_csv_path = '{0}_csv/{1}'.format(init['folder'], init['csv_name'])
-	orgData = pd.read_csv(org_csv_path, encoding='Shift-JIS')
+	# replaced_csv_path = '{0}_csv/replaced_{1}'.format(init['folder'], init['csv_name'])
+	# org_csv_path = '{0}_csv/{1}'.format(init['folder'], init['csv_name'])
+	# orgData = pd.read_csv(org_csv_path, encoding='Shift-JIS')
 
 	for head, path_replce in zip(headers, pathReplceList):
 		readReplace(init, path_replce, head, orgData, replaced_csv_path)
 
-def runCsvList(init, pathReplceList, headers):
-	if( len(pathReplceList) == len(headers) ):
-			runHeader(init, pathReplceList, headers)
-	else:
-		sys.exit()
+def replaceName(org_data, df_replace):
+	copy_data = org_data.copy()
+	for i, d in enumerate(org_data['name']):
+		add_str = ''
+		for a, b in zip(df_replace['name_after'], df_replace['name_before']):
+			if(str(b) in str(d)):
+				add_str = add_str + ' ' + a
+		copy_data['name'][i] = '[{} ]'.format(add_str) + org_data['name'][i]
 
+	return copy_data
+
+def replaceMaterial(org_data, df_replace):
+	for i, d in enumerate(org_data['Material']):
+		add_str = ''
+		for a, b in zip(df_replace['Material_after'], df_replace['Material_before']):
+			if(str(b) in str(d)):
+				org_data['Material'] = a
+				break
+		
+	return org_data
+
+def runCsvList(init, pathReplceList, headers):
+	#df_replace = pd.read_csv('replace_list.csv', encoding='Shift-JIS')
+	df_replace = pd.read_csv('replace_csv/replace_list.csv', encoding='Shift-JIS')
+
+	replaced_csv_path = '{0}_csv/replaced_{1}'.format(init['folder'], init['csv_name'])
+	org_csv_path = '{0}_csv/{1}'.format(init['folder'], init['csv_name'])
+	org_data = pd.read_csv(org_csv_path, encoding='Shift-JIS')
+
+	for i in headers:
+		if(i == 'name'):
+			org_data = replaceName(org_data, df_replace)
+		if(i == 'Material'):
+			org_data = replaceMaterial(org_data, df_replace)
+
+	org_data.to_csv(replaced_csv_path, encoding='Shift-JIS', index=False)
+	
 
 if __name__ == '__main__':
 	init = setConst()
 	headers = ['name', 'Material']
-	pathReplceList = ['../replace_csv/name.csv', '../replace_csv/Material.csv']
+	pathReplceList = 0
 	runCsvList(init, pathReplceList, headers)
+
