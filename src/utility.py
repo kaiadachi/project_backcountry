@@ -9,7 +9,8 @@ def saveImg(img_url, folder_name):
 
     re = requests.get(img_url)
 
-    img_name = img_url.split('/')[-1]
+    img_name = img_url.split('/')[-2:]
+    img_name = "_".join(img_name)
     with open("{0}/{1}".format(folder_name, img_name), 'wb') as f:
         f.write(re.content)
 
@@ -18,16 +19,6 @@ def saveImg(img_url, folder_name):
 
 def getAttribute(selenium_array, type):
     return [i.get_attribute(type) for i in selenium_array]
-
-def getLastPage(driver):
-    last_page = driver.find_elements_by_xpath('//li[@class = "page-link page-number"]/a')[-1].text
-
-    return int(last_page)
-
-def goNext(driver, init_url):
-    driver.get('{0}?page={1}'.format(init_url, i+1))
-
-    return driver
 
 def createCsv(data, folder_csv, name, isHeader, sep):
     fliename = '{0}/{1}'.format(folder_csv, name)
