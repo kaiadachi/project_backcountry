@@ -2,6 +2,9 @@ import pandas as pd
 from src.settings import *
 from src.utility import *
 
+# from settings import *
+# from utility import *
+
 def convertAmazon():
     init = setConst()
 

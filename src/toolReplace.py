@@ -1,7 +1,7 @@
 import pandas as pd
 import sys
 import glob
-# from settings import *
+from settings import *
 
 
 def getReplace(org, key, before, after):
@@ -55,8 +55,8 @@ def replaceName(org_data, df_replace):
 		add_str = ''
 		for a, b in zip(df_replace['name_after'], df_replace['name_before']):
 			if(str(b) in str(d)):
-				add_str = add_str + ' ' + a
-		copy_data['name'][i] = '[{} ]'.format(add_str) + org_data['name'][i]
+				add_str = add_str + ' ' + str(a)
+		copy_data['name'][i] = '[{} ]'.format(add_str) + str(org_data['name'][i])
 
 	return copy_data
 
@@ -76,7 +76,7 @@ def runCsvList(init, pathReplceList, headers):
 
 	replaced_csv_path = '{0}_csv/replaced_{1}'.format(init['folder'], init['csv_name'])
 	org_csv_path = '{0}_csv/{1}'.format(init['folder'], init['csv_name'])
-	org_data = pd.read_csv(org_csv_path, encoding='Shift-JIS')
+	org_data = pd.read_csv(org_csv_path, encoding='Shift-JIS', dtype = 'object')
 
 	for i in headers:
 		if(i == 'name'):
