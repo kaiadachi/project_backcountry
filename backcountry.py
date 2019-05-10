@@ -1,4 +1,4 @@
-import sys
+import sys, os
 import time
 import traceback
 import csv
@@ -14,7 +14,14 @@ from src.setupLogic import *
 
 if __name__ == '__main__':
     init = setConst()
-    df = pd.DataFrame(index=[])
+    df_name = '{}_csv/{}'.format(init['folder'], init['csv_name'] )
+    isFile = os.path.isfile(df_name)
+    if(isFile):
+        df = pd.read_csv(df_name, encoding="shift-jis")
+        df['stock'] = 0
+    else:
+        df = pd.DataFrame(index=[])
+        
     driver = setSelenium(init['url'])
     driver.implicitly_wait(10)
 
@@ -30,7 +37,13 @@ if __name__ == '__main__':
     for count, url in enumerate(urls):
         print("Now: {0}/{1}".format(count+1, init['limit']))
         driver.get(url)
-        df = parseElement(driver, df, init['folder'] + '_img', trans_browser)
+        #df = parseElement(driver, df, init['folder'] + '_img', trans_browser)
+        
+        ## ねんのため
+        try:
+            df = parseElement(driver, df, init['folder'] + '_img', trans_browser)
+        except:
+            pass
 
     createCsv(df, init['folder'] + '_csv', init['csv_name'], True, ',')
     driver.close()

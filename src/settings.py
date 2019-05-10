@@ -6,10 +6,10 @@ def setConst():
         'single_url': 'https://www.backcountry.com/womens-clothing-best-sellers',
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
-        'limit': 250,
+        'limit': 300,
         'folder': 'backcountry',
         'csv_name': 'backcountry.csv',
-        'weight': 275,
+        'weight': 300,
         'image_path': 'http://kai8217.xsrv.jp/backcountry_img/',
         'limit_img_sub': 8
     }

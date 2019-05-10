@@ -3,7 +3,10 @@ import pandas as pd
 import codecs
 import traceback
 
-def saveImg(img_url, folder_name):
+def saveImg(img_url, folder_name, isMatch):
+    if(isMatch):
+        return 0
+
     if("https:" not in img_url):
         img_url = "https:" + img_url
 
@@ -31,3 +34,15 @@ def createCsv(data, folder_csv, name, isHeader, sep):
             data.to_csv(fliename, encoding="utf-8")
         except:
             data.to_csv(fliename)
+
+def getMatch(df, name):
+    if( (df.columns=='name').sum() == 0 ):
+        return False
+
+    df_match = ( df['name'] == name )
+    count = df_match.sum()
+    print(count)
+    if(count > 0):
+        return True
+    else:
+        return False

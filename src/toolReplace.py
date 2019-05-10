@@ -1,7 +1,7 @@
 import pandas as pd
 import sys
 import glob
-from settings import *
+from src.settings import *
 
 
 def getReplace(org, key, before, after):
