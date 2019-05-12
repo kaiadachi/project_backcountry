@@ -79,7 +79,7 @@ def parse(driver, item, df, folder_img, trans_browser):
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
     except:
         try:
-            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale js-product-pricing__sale"]').text
+            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__inactive js-product-pricing__inactive"]').text
         except:
             try:
                 item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
@@ -91,7 +91,10 @@ def parse(driver, item, df, folder_img, trans_browser):
 
     item['price'] = item['price'].replace('$', '')
     item['price'] = item['price'].replace(',', '')
-    item['price'] = float(item['price']) * init['weight']
+    if float(item['price']) < 50.0:
+        item['price'] = float(item['price']) * init['highweight']
+    else:
+        item['price'] = float(item['price']) * init['weight']
 
     # driver.find_element_by_xpath('//span[@class = "ui-accordion-header-icon ui-icon product-details-accordion__header--inactive"]').click()
     name_selector = driver.find_elements_by_xpath('//div[@class = "td ui-product-details__techspec-name"]')

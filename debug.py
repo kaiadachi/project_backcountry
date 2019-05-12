@@ -15,11 +15,12 @@ def getAttribute(selenium_array, type):
 
 def parseElement(driver):
     item = setStructure()
+    init = setConst()
     try:
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
     except:
         try:
-            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale js-product-pricing__sale"]').text
+            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__inactive js-product-pricing__inactive"]').text
         except:
             try:
                 item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
@@ -29,10 +30,17 @@ def parseElement(driver):
                 except Exception as e:
                     print(traceback.format_exc())
 
-    item['price'] = float(item['price']) * init['weight']
+    item['price'] = item['price'].replace('$', '')
+    item['price'] = item['price'].replace(',', '')
+    print(item['price'])
+    if float(item['price']) < 50.0:
+        item['price'] = float(item['price']) * init['highweight']
+    else:
+        item['price'] = float(item['price']) * init['weight']
+
     print(item['price'])
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
-    driver.get('https://www.backcountry.com/patagonia-active-hipster-brief-womens?skid=PAT02BG-SESTSMPK-XS&ti=U2VhcmNoIFJlc3VsdHM6UGF0YWdvbmlhIEFjdGl2ZSBIaXBzdGVyIEJyaWVmIC0gV29tZW4nczoxOjE6UGF0YWdvbmlhIEFjdGl2ZSBIaXBzdGVyIEJyaWVmIC0gV29tZW4ncw==')
+    driver.get('https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-TOM-XXS&ti=UExQIENhdDo6OjE6')
     parseElement(driver)
