@@ -19,7 +19,7 @@ def parseElement(driver):
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
     except:
         try:
-            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__inactive js-product-pricing__inactive"]').text
+            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale js-product-pricing__sale"]').text
         except:
             try:
                 item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
@@ -29,6 +29,7 @@ def parseElement(driver):
                 except Exception as e:
                     print(traceback.format_exc())
 
+    item['price'] = float(item['price']) * init['weight']
     print(item['price'])
 
 if __name__ == '__main__':
