@@ -17,19 +17,15 @@ def parseElement(driver):
     item = setStructure()
     try:
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
-        print("1")
     except:
         try:
             item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__inactive js-product-pricing__inactive"]').text
-            print("2")
         except:
             try:
                 item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
-                print("3")
             except:
                 try:
                     item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail"]').text
-                    print("4")
                 except Exception as e:
                     print(traceback.format_exc())
 
