@@ -21,8 +21,8 @@ def parse(driver, item, df, folder_img, trans_browser):
 
     item['parent_child'] = 'parent'
 
-    # 今までに取ったことがあるかか？
-    # namaで一致させる。
+    # 今までに取ったことがあるか？
+    # namaで一致させる
     isMatch = getMatch(df, item['name'])
     upc_browser = webdriver.Chrome()
     upc_browser.implicitly_wait(10)
@@ -71,7 +71,7 @@ def parse(driver, item, df, folder_img, trans_browser):
 
             item['img_sub_{0}'.format(i+1)] =  init['image_path'] + name
 
-            
+
     except:
         print("********img_sub Error!!!**********")
 

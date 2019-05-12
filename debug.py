@@ -15,11 +15,27 @@ def getAttribute(selenium_array, type):
 
 def parseElement(driver):
     item = setStructure()
-    item['product'] = driver.find_element_by_xpath('//meta[@itemprop = "productID"]').get_attribute('content')
+    try:
+        item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
+        print("1")
+    except:
+        try:
+            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__inactive js-product-pricing__inactive"]').text
+            print("2")
+        except:
+            try:
+                item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
+                print("3")
+            except:
+                try:
+                    item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail"]').text
+                    print("4")
+                except Exception as e:
+                    print(traceback.format_exc())
 
-    print(item['product'])
+    print(item['price'])
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
-    driver.get('https://www.backcountry.com/the-north-face-arctic-parka-womens?skid=TNF03E0-URBNV-XS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n')
+    driver.get('https://www.backcountry.com/patagonia-active-hipster-brief-womens?skid=PAT02BG-SESTSMPK-XS&ti=U2VhcmNoIFJlc3VsdHM6UGF0YWdvbmlhIEFjdGl2ZSBIaXBzdGVyIEJyaWVmIC0gV29tZW4nczoxOjE6UGF0YWdvbmlhIEFjdGl2ZSBIaXBzdGVyIEJyaWVmIC0gV29tZW4ncw==')
     parseElement(driver)
