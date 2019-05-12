@@ -55,8 +55,8 @@ def replaceName(org_data, df_replace):
 		add_str = ''
 		for a, b in zip(df_replace['name_after'], df_replace['name_before']):
 			if(str(b) in str(d)):
-				add_str = add_str + ' ' + str(a)
-		copy_data['name'][i] = '[{} ]'.format(add_str) + str(org_data['name'][i])
+				add_str += str(a) + ' '
+		copy_data['name'][i] = '[{}]'.format(add_str) + str(org_data['name'][i])
 
 	return copy_data
 
@@ -67,7 +67,7 @@ def replaceMaterial(org_data, df_replace):
 			if(str(b) in str(d)):
 				org_data['Material'] = a
 				break
-		
+
 	return org_data
 
 def runCsvList(init, pathReplceList, headers):
@@ -84,12 +84,12 @@ def runCsvList(init, pathReplceList, headers):
 		if(i == 'Material'):
 			org_data = replaceMaterial(org_data, df_replace)
 
-	org_data.to_csv(replaced_csv_path, encoding='Shift-JIS', index=False)
-	
+	#org_data.to_csv(replaced_csv_path, encoding='Shift-JIS', index=False)
+	org_data.to_csv('./test.csv', encoding='Shift-JIS', index=False)
+
 
 if __name__ == '__main__':
 	init = setConst()
 	headers = ['name', 'Material']
 	pathReplceList = 0
 	runCsvList(init, pathReplceList, headers)
-

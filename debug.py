@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from src.settings import *
 from src.utility import *
 from src.parseLogic import *
+from src.toolReplace import *
 
 
 def getAttribute(selenium_array, type):
@@ -17,28 +18,12 @@ def parseElement(driver):
     item = setStructure()
     init = setConst()
     try:
-        item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
-    except:
-        try:
-            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__inactive js-product-pricing__inactive"]').text
-        except:
-            try:
-                item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
-            except:
-                try:
-                    item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail"]').text
-                except Exception as e:
-                    print(traceback.format_exc())
-
-    item['price'] = item['price'].replace('$', '')
-    item['price'] = item['price'].replace(',', '')
-    print(item['price'])
-    if float(item['price']) < 50.0:
-        item['price'] = float(item['price']) * init['highweight']
-    else:
-        item['price'] = float(item['price']) * init['weight']
-
-    print(item['price'])
+        item['product'] = driver.find_elements_by_xpath('//ul[@class="product-details-accordion__list"]/li')[-1].text.replace("Item #", "")
+        item['name'] = driver.find_element_by_xpath('//h1[@class="product-name qa-product-title"]').text
+        item['brand'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
+    except Exception as e:
+        print(traceback.format_exc())
+    runCsvList(init, ['replace_csv/Material.csv', 'replace_csv/name.csv'], ['Material', 'name'])
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
