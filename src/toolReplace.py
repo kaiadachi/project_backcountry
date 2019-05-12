@@ -84,9 +84,7 @@ def runCsvList(init, pathReplceList, headers):
 		if(i == 'Material'):
 			org_data = replaceMaterial(org_data, df_replace)
 
-	#org_data.to_csv(replaced_csv_path, encoding='Shift-JIS', index=False)
-	org_data.to_csv('./test.csv', encoding='Shift-JIS', index=False)
-
+	org_data.to_csv(replaced_csv_path, encoding='Shift-JIS', index=False)
 
 if __name__ == '__main__':
 	init = setConst()
