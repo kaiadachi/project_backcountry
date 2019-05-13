@@ -1,7 +1,7 @@
 import pandas as pd
 import time
 from src.utility import *
-from src.upc import *
+from src.upcitemdb import *
 from src.settings import *
 from src.googleTrans import *
 import traceback
@@ -21,15 +21,26 @@ def parse(driver, item, df, folder_img, trans_browser):
 
     item['parent_child'] = 'parent'
 
-    try:
-        description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
-        for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
-            description = description + '\n - ' + i.text
-        item['en_description'] = description
+    # 今までに取ったことがあるか？
+    # namaで一致させる
+    isMatch = getMatch(df, item['name'])
+    upc_browser = webdriver.Chrome()
+    upc_browser.implicitly_wait(10)
+    if(not isMatch):
+        df_upc = getAllUpc(item['name'] , upc_browser)
 
-        # Google Translate
-        item['en_description'] = item['en_description'].replace('-', '')
-        item['description'] = doTrans(item['en_description'], trans_browser)
+    try:
+        if(isMatch):
+            pass
+        else:
+            description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
+            for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
+                description = description + '\n - ' + i.text
+            item['en_description'] = description
+
+            # Google Translate
+            item['en_description'] = item['en_description'].replace('-', '')
+            item['description'] = doTrans(item['en_description'], trans_browser)
     except Exception as e:
         print(traceback.format_exc())
 
@@ -37,26 +48,30 @@ def parse(driver, item, df, folder_img, trans_browser):
     try:
         img_parent = driver.find_elements_by_xpath('//ul[@class = "product-detail-imgs__ul"]/li/img')
         img_parent_src = getAttribute(img_parent, 'data-large-img')
-        img_parent_name = [ saveImg(src, folder_img) for src in img_parent_src ]
+        img_parent_name = [ saveImg(src, folder_img, isMatch) for src in img_parent_src ]
         item['img_name'] = img_parent_name[0]
 
     except:
         print('miss main_img emergency')
         img_parent = driver.find_element_by_xpath('//img[@class = "product-detail-imgs__img js-active-color-img js-product-detail-img is-active').getAttribute('src')
-        item['img_name'] = saveImg(img_parent, folder_img)
+        item['img_name'] = saveImg(img_parent, folder_img, isMatch)
 
-
-    series = pd.Series(item)
-    df = df.append(series, ignore_index = True)
+    if(isMatch):
+        print( 'Already acquired [{0}]'.format(item['name']) )
+    else:
+        series = pd.Series(item)
+        df = df.append(series, ignore_index = True)
 
     # child
 
     try:
         for i, name in enumerate(img_parent_name[1:]):
+            if i == init['limit_img_sub'] or isMatch:
+                break
+
             item['img_sub_{0}'.format(i+1)] =  init['image_path'] + name
 
-            if i == init['limit_img_sub']:
-                break
+
     except:
         print("********img_sub Error!!!**********")
 
@@ -64,7 +79,7 @@ def parse(driver, item, df, folder_img, trans_browser):
         item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__retail js-product-pricing__retail"]').text
     except:
         try:
-            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale js-product-pricing__sale"]').text
+            item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__inactive js-product-pricing__inactive"]').text
         except:
             try:
                 item['price'] = driver.find_element_by_xpath('//span[@class = "product-pricing__sale"]').text
@@ -76,7 +91,10 @@ def parse(driver, item, df, folder_img, trans_browser):
 
     item['price'] = item['price'].replace('$', '')
     item['price'] = item['price'].replace(',', '')
-    item['price'] = float(item['price']) * init['weight']
+    if float(item['price']) < 50.0:
+        item['price'] = float(item['price']) * init['highweight']
+    else:
+        item['price'] = float(item['price']) * init['weight']
 
     # driver.find_element_by_xpath('//span[@class = "ui-accordion-header-icon ui-icon product-details-accordion__header--inactive"]').click()
     name_selector = driver.find_elements_by_xpath('//div[@class = "td ui-product-details__techspec-name"]')
@@ -95,8 +113,8 @@ def parse(driver, item, df, folder_img, trans_browser):
     item['description'] = ''
 
     # upc
-    upc_browser = webdriver.Chrome()
-    upc_browser.implicitly_wait(10)
+    # upc_browser = webdriver.Chrome()
+    # upc_browser.implicitly_wait(10)
     for color, color_btn in zip(colors, color_selector):
         color_selectbox = driver.find_element_by_xpath('//*[@id="product-color-select"]')
         color_selectbox.click()
@@ -105,7 +123,7 @@ def parse(driver, item, df, folder_img, trans_browser):
 
         try:
             img_url = driver.find_element_by_xpath('//li[@class="ui-flexslider__item js-flexslider-item ui-flexslider-active-slide"]//img').get_attribute('src')
-            item['img_name'] = saveImg(img_url, folder_img)
+            item['img_name'] = saveImg(img_url, folder_img, isMatch)
         except Exception as e:
             print(traceback.format_exc())
 
@@ -126,10 +144,16 @@ def parse(driver, item, df, folder_img, trans_browser):
 
                 item['product'] = driver.find_element_by_xpath('//input[@class = "js-selected-product-variant"]').get_attribute('value')
                 print(item['product'])
-                item['upc'] = searchUpc(item['product'], upc_browser)
 
-                series = pd.Series(item)
-                df = df.append(series, ignore_index = True)
+                item['upc'] = ''
+                if(isMatch):
+                    match_ids = ( df[df['product'] == item['product']].index )
+                    print( 'Id of items that matched is {}'.format(match_ids[0]) )
+                    df.at[match_ids[0], 'stock'] = item['stock']
+                else:
+                    item['upc'], df_upc = findMatchedUPC(item['name'], size, color, df_upc)
+                    series = pd.Series(item)
+                    df = df.append(series, ignore_index = True)
 
     upc_browser.close()
     return df

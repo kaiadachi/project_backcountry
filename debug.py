@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from src.settings import *
 from src.utility import *
 from src.parseLogic import *
+from src.toolReplace import *
 
 
 def getAttribute(selenium_array, type):
@@ -15,11 +16,16 @@ def getAttribute(selenium_array, type):
 
 def parseElement(driver):
     item = setStructure()
-    item['product'] = driver.find_element_by_xpath('//meta[@itemprop = "productID"]').get_attribute('content')
-
-    print(item['product'])
+    init = setConst()
+    try:
+        item['product'] = driver.find_elements_by_xpath('//ul[@class="product-details-accordion__list"]/li')[-1].text.replace("Item #", "")
+        item['name'] = driver.find_element_by_xpath('//h1[@class="product-name qa-product-title"]').text
+        item['brand'] = driver.find_element_by_xpath('//span[@class = "qa-brand-name"]').text
+    except Exception as e:
+        print(traceback.format_exc())
+    runCsvList(init, ['replace_csv/Material.csv', 'replace_csv/name.csv'], ['Material', 'name'])
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
-    driver.get('https://www.backcountry.com/the-north-face-arctic-parka-womens?skid=TNF03E0-URBNV-XS&ti=UExQIENhdDpXb21lbidzIENsb3RoaW5nIEJlc3QgU2VsbGVyczoxOjE6YmMtd29tZW5zLWNsb3RoaW5n')
+    driver.get('https://www.backcountry.com/patagonia-better-sweater-1-4-zip-fleece-jacket-womens?skid=PAT010V-TOM-XXS&ti=UExQIENhdDo6OjE6')
     parseElement(driver)
