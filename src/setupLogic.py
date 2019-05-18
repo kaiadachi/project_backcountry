@@ -34,9 +34,9 @@ def getHref(driver, last_page, limit):
 
     return driver, urls
 
-def parseElement(driver, df, folder_img, trans_browser):
+def parseElement(driver, df, folder_img):
     item = setStructure()
-    df = parse(driver, item, df, folder_img, trans_browser)
+    df = parse(driver, item, df, folder_img)
 
     return df
 

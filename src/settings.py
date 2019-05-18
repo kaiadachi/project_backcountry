@@ -3,7 +3,7 @@ import pandas as pd
 def setConst():
     init = {
         'url': 'https://www.backcountry.com/womens-clothing-best-sellers',
-        'single_url': 'https://www.backcountry.com/womens-clothing-best-sellers',
+        'single_url': 'https://www.backcountry.com/patagonia-fleetwith-dress-womens?skid=PAT02B3-ARRRD-XS&ti=U2VhcmNoIFJlc3VsdHM6cGF0YWdvbmlhIDoxOjE1OnBhdGFnb25pYSA=',
         # 'url': 'https://www.backcountry.com/mens-clothing-best-sellers'
         # 'url': 'https://www.backcountry.com/kids-best-sellers'
         'limit': 300,
