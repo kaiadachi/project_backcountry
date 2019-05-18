@@ -56,6 +56,7 @@ def replaceName(org_data, df_replace):
 		for a, b in zip(df_replace['name_after'], df_replace['name_before']):
 			if(str(b) in str(d)):
 				add_str += str(a) + ' '
+				add_str = add_str.rstrip()
 		copy_data['name'][i] = '[{}]'.format(add_str) + str(org_data['name'][i])
 
 	return copy_data
