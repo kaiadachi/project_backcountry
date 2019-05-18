@@ -10,7 +10,7 @@ def setConst():
         'folder': 'backcountry',
         'csv_name': 'backcountry.csv',
         'weight': 300,
-        'highweight': 500,
+        'highweight': 400,
         'image_path': 'http://kai8217.xsrv.jp/backcountry_img/',
         'limit_img_sub': 8
     }
