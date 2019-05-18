@@ -7,7 +7,7 @@ from src.googleTrans import *
 import traceback
 
 
-def parse(driver, item, df, folder_img, trans_browser):
+def parse(driver, item, df, folder_img):
     init = setConst()
     # parent
     item['url'] = driver.current_url
@@ -29,20 +29,20 @@ def parse(driver, item, df, folder_img, trans_browser):
     if(not isMatch):
         df_upc = getAllUpc(item['name'] , upc_browser)
 
-    try:
-        if(isMatch):
-            pass
-        else:
-            description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
-            for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
-                description = description + '\n - ' + i.text
-            item['en_description'] = description
-
-            # Google Translate
-            item['en_description'] = item['en_description'].replace('-', '')
-            item['description'] = doTrans(item['en_description'], trans_browser)
-    except Exception as e:
-        print(traceback.format_exc())
+    # try:
+    #     if(isMatch):
+    #         pass
+    #     else:
+    #         description = driver.find_element_by_xpath('//div[@class = "ui-product-details__description"]').text
+    #         for i in driver.find_elements_by_xpath('//li[@class = "product-details-accordion__bulletpoint"]'):
+    #             description = description + '\n - ' + i.text
+    #         item['en_description'] = description
+    #
+    #         # Google Translate
+    #         item['en_description'] = item['en_description'].replace('-', '')
+    #         item['description'] = doTrans(item['en_description'], trans_browser)
+    # except Exception as e:
+    #     print(traceback.format_exc())
 
 
     try:

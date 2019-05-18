@@ -21,13 +21,13 @@ if __name__ == '__main__':
         df['stock'] = 0
     else:
         df = pd.DataFrame(index=[])
-        
+
     driver = setSelenium(init['url'])
     driver.implicitly_wait(10)
 
     # 翻訳用ブラウザ
-    trans_browser = webdriver.Chrome()
-    trans_browser.implicitly_wait(10)
+    # trans_browser = webdriver.Chrome()
+    # trans_browser.implicitly_wait(10)
 
     last_page = getLastPage(driver)
     driver, urls = getHref(driver, last_page, init['limit'])
@@ -37,17 +37,15 @@ if __name__ == '__main__':
     for count, url in enumerate(urls):
         print("Now: {0}/{1}".format(count+1, init['limit']))
         driver.get(url)
-        #df = parseElement(driver, df, init['folder'] + '_img', trans_browser)
-        
-        ## ねんのため
+
         try:
-            df = parseElement(driver, df, init['folder'] + '_img', trans_browser)
-        except:
-            pass
+            df = parseElement(driver, df, init['folder'] + '_img')
+        except Exception as e:
+            print(traceback.format_exc())
 
     createCsv(df, init['folder'] + '_csv', init['csv_name'], True, ',')
     driver.close()
-    trans_browser.close()
+    # trans_browser.close()
 
     try:
         runCsvList(init, ['replace_csv/Material.csv', 'replace_csv/name.csv'], ['Material', 'name'])
