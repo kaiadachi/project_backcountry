@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 def getAllUpc(name, browser):
-    df_upc = pd.DataFrame(columns=['title', 'upc', 'color', 'size'])
+    df_upc = pd.DataFrame(columns=['title', 'upc'])
 
     #browser.implicitly_wait(3)
     browser.get('https://www.upcitemdb.com/')
@@ -19,8 +19,9 @@ def getAllUpc(name, browser):
     count = 1
     df_upc = recurseUPC(df_upc, browser, count, name)
 
-    df_upc.to_csv('df_upc.csv')
+    #df_upc.to_csv('df_upc.csv')
 
+    #print(df_upc)
     return df_upc
 
 def recurseUPC(df_upc, browser, count, name):
@@ -28,24 +29,18 @@ def recurseUPC(df_upc, browser, count, name):
     upc = browser.find_elements_by_xpath('//div[@class="rImage"]/a')
     title = browser.find_elements_by_xpath('//div[@class="rImage"]/p')
 
-    print('##{}----------------'.format(count))
+    #print('##{}----------------'.format(count))
     info = {
         'title': '',
-        'upc': '',
-        'color': '',
-        'size': ''
+        'upc': ''
     }
+
     for t, u in zip(title, upc):
-        isName = (name in t.text)
-        if(isName):
-            print(t.text)
-            print(u.text)
+        if(t.text != ''):
+            # print(t.text)
+            # print(u.text)
             info['title'] = t.text
             info['upc'] = u.text
-            str_replace = t.text.replace(name + ' ', '')
-            str_split = str_replace.split(', ')
-            info['color'] = str_split[0]
-            info['size'] =  str_split[1]
             df_upc = df_upc.append(info, ignore_index = True)
 
     count = count + 1
@@ -56,18 +51,19 @@ def recurseUPC(df_upc, browser, count, name):
         return df_upc
     
 def findMatchedUPC(name, size, color, df_upc):
-    df_size = df_upc[df_upc['size'] == size]
     for c in re.split('[/ \n,]', color):
-        print('{0} -> {1}'.format(color, c))
-        df_size_color = df_size[df_size['color'].str.contains(c)]
-        length = len(df_size_color)
+        #print('{0} -> {1}'.format(color, c))
+        df_color = df_upc[df_upc['title'].str.contains(c)]
+        df_color_size = df_color[df_color['title'].str.contains(size)]
+        length = len(df_color_size)
         if(length != 0):
-            upc = df_size_color['upc'].iloc[0]
-            drop_id = df_size_color.index[0]
-            df_upc_new = df_upc.drop(index=drop_id)
-            return upc, df_upc_new
+            upc = df_color_size['upc'].iloc[0]
+            # print(upc)
+            # print(df_color_size['title'])
+            drop_id = df_color_size.index[0]
+            df_upc = df_upc.drop(index=drop_id)
+            return upc, df_upc
     
-    print('not found')
     return 0, df_upc
     
     

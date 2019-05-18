@@ -148,12 +148,14 @@ def parse(driver, item, df, folder_img):
                 item['upc'] = ''
                 if(isMatch):
                     match_ids = ( df[df['product'] == item['product']].index )
+                    print(match_ids)
                     print( 'Id of items that matched is {}'.format(match_ids[0]) )
                     df.at[match_ids[0], 'stock'] = item['stock']
                 else:
                     item['upc'], df_upc = findMatchedUPC(item['name'], size, color, df_upc)
-                    series = pd.Series(item)
-                    df = df.append(series, ignore_index = True)
+                    if(item['upc'] != 0):
+                        series = pd.Series(item)
+                        df = df.append(series, ignore_index = True)
 
     upc_browser.close()
     return df

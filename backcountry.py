@@ -18,7 +18,7 @@ if __name__ == '__main__':
     isFile = os.path.isfile(df_name)
     if(isFile):
         df = pd.read_csv(df_name, encoding="shift-jis")
-        df['stock'] = 0
+        df.loc[df['parent_child']=='child', 'stock'] = 0
     else:
         df = pd.DataFrame(index=[])
 
